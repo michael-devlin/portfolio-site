@@ -1,4 +1,4 @@
-# Personal portfolio site built by React / hosted on Netflify
+## Personal portfolio site built using React / hosted by Netflify
 
 ![](https://user-images.githubusercontent.com/23028288/122434214-ce658f00-cf8e-11eb-93cb-c27f63585f0c.png)
 
