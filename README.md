@@ -11,5 +11,6 @@ I decided to use React as a framework and Netlify as my deployment host. I made 
 - Styled Components
 - HTML
 - CSS
+- Netlify
 
 This Read Me is still a work in progress! :)
