@@ -8,7 +8,7 @@ const GlobalStyles = createGlobalStyle`
   }
   :root{
     --bg: #F9964F;
-    --gray-1: #656765
+    --gray-1: #656765;
     --deep-dark: #1E1E1E;
     --gray-2: #34231E;
     --white : white;
