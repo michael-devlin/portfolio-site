@@ -14,3 +14,5 @@ I decided to use React as a framework and Netlify as my deployment host. I made 
 - Netlify
 
 This Read Me is still a work in progress! :)
+
+###### *Banner illustration by Storyset. Design by Michael Devlin © Copyright 2021*
