@@ -104,18 +104,49 @@ export default function NavMenu() {
           <MdClose />
         </div>
         <li>
-          <NavLink to="/" exact>
+          <NavLink
+            to="/"
+            exact
+            onClick={() => setNav(!showNav)}
+            role="button"
+            onKeyDown={() => setNav(!showNav)}
+            tabIndex={0}
+          >
             Home
           </NavLink>
         </li>
         <li>
-          <NavLink to="/about">About</NavLink>
+          <NavLink
+            to="/about"
+            onClick={() => setNav(!showNav)}
+            role="button"
+            onKeyDown={() => setNav(!showNav)}
+            tabIndex={0}
+          >
+            About
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/projects">Projects</NavLink>
+          <NavLink
+            to="/projects"
+            onClick={() => setNav(!showNav)}
+            role="button"
+            onKeyDown={() => setNav(!showNav)}
+            tabIndex={0}
+          >
+            Projects
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/contact">Contact</NavLink>
+          <NavLink
+            to="/contact"
+            onClick={() => setNav(!showNav)}
+            role="button"
+            onKeyDown={() => setNav(!showNav)}
+            tabIndex={0}
+          >
+            Contact
+          </NavLink>
         </li>
       </ul>
     </NavMenuStyles>
