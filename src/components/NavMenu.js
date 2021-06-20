@@ -84,7 +84,13 @@ export default function NavMenu() {
   const [showNav, setNav] = useState(false);
   return (
     <NavMenuStyles>
-      <div className="mobile-menu-icon">
+      <div
+        className="mobile-menu-icon"
+        onClick={() => setNav(!showNav)}
+        role="button"
+        onKeyDown={() => setNav(!showNav)}
+        tabIndex={0}
+      >
         <MdMenu />
       </div>
       <ul className={!showNav ? 'navItems hide-item' : 'navItems'}>
@@ -92,7 +98,7 @@ export default function NavMenu() {
           className="closeNav"
           onClick={() => setNav(!showNav)}
           role="button"
-          onKeyDown={() => showNav(!showNav)}
+          onKeyDown={() => setNav(!showNav)}
           tabIndex={0}
         >
           <MdClose />
