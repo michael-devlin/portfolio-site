@@ -45,6 +45,12 @@ const NavMenuStyles = styled.div`
     display: none;
     outline: none;
   }
+  .closeNav {
+    display: none;
+  }
+  /* * {
+    pointer-events: none;
+  } */
   @media only screen and (max-width: 768px) {
     .hide-item {
       display: none;
