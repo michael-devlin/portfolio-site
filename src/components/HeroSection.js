@@ -18,6 +18,24 @@ const HeroStyles = styled.div`
     .banner {
       margin-top: -185px;
     }
+
+    .hero__info {
+      margin-top: -15rem;
+    }
+    @media only screen and (max-width: 768px) {
+      .hero {
+        min-height: 750px;
+      }
+      .hero__img {
+        height: 300px;
+      }
+      .hero__info {
+        margin-top: -20rem;
+      }
+      .p {
+        font-size: 1.2rem;
+      }
+    }
   }
 `;
 
