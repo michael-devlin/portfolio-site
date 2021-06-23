@@ -26,11 +26,15 @@ const BtnStyle = styled.div`
   }
 `;
 
-export default function Button({ btnLink, border }) {
+export default function Button({
+  btnLink = '',
+  btnText = 'generic text',
+  border = false,
+}) {
   return (
     <BtnStyle border={border}>
       <Link className="button" to={btnLink}>
-        See my work
+        {btnText}
       </Link>
     </BtnStyle>
   );
