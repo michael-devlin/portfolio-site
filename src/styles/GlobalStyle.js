@@ -36,7 +36,7 @@ const GlobalStyles = createGlobalStyle`
   }
   .container {
     max-width: 1200px;
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
   }
 /* Smooth Scroll  */

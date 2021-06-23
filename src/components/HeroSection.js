@@ -20,17 +20,20 @@ const HeroStyles = styled.div`
     }
 
     .hero__info {
-      margin-top: -15rem;
+      margin-top: -5rem;
     }
     @media only screen and (max-width: 768px) {
       .hero {
         min-height: 750px;
       }
+      .banner {
+      }
       .hero__img {
-        height: 300px;
+        margin-top: -140px;
+        height: 147px;
       }
       .hero__info {
-        margin-top: -20rem;
+        margin-top: -12rem;
       }
       .p {
         font-size: 1.2rem;
