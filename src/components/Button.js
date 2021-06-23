@@ -1,23 +1,20 @@
 /* eslint-disable no-unused-expressions */
 import React from 'react';
+import { MdFormatColorReset, MdFormatListNumbered } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const BtnStyle = styled.div`
   margin-top: 2rem;
   .button {
-    font-size: 2.2.rem;
-    background-color: ${(props) => {
-      // eslint-disable-next-line no-unused-expressions
-      props.border ? 'transparent' : 'var(--black)';
-    }};
+    font-size: 1.6rem;
+    background-color: ${(props) =>
+      props.border ? 'transparent' : 'var(--black)'};
     padding: 0.7em 2em;
     border-radius: 8px;
     display: inline-block;
-    border: 2px solid var(--black);
-    color: ${(props) => {
-      props.border ? 'var(--light)' : 'var(--black)';
-    }};
+    border: 2px solid var(--light);
+    color: ${(props) => (props.border ? 'var(--light)' : 'var(--light)')};
   }
   @media only screen and (max-width: 768px) {
     .button {
