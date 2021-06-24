@@ -1,6 +1,7 @@
 import React from 'react';
 import SectionTitle from './SectionTitle';
 import PText from './PText';
+import Button from './Button';
 
 export default function AboutSection() {
   return (
@@ -17,6 +18,10 @@ export default function AboutSection() {
           websites and web apps. In my spare time, I enjoy hiking, reading and
           practicing yoga.
         </PText>
+        <div className="aboutSection__buttons">
+          <Button btnLink="/projects" btnText="My Work" />
+          <Button btnLink="/about" btnText="See More" border />
+        </div>
       </div>
     </div>
   );
