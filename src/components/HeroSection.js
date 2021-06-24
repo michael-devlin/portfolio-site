@@ -54,7 +54,7 @@ export default function HeroSection() {
             <PText>
               I build great looking, user-friendly, accessible web apps
             </PText>
-            <Button btnLink="/projects" btnText="see my projects" />
+            <Button btnLink="/projects" btnText="See my projects" />
           </div>
         </div>
       </div>
