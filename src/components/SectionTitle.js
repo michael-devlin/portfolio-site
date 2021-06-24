@@ -15,15 +15,23 @@ h2 {
 }
 
 @media only screen and (max-width: 768px) {
-
+p {
+    font-size: 1.2rem
+}
+h2 {
+    font-size: 3.6rem;
+}
 }
 `;
 
-export default function SectionTitle() {
+export default function SectionTitle({
+  subheading = 'Need Subheading',
+  heading = 'need heading',
+}) {
   return (
-    <SectionTitleStyle>
-      <p>Subtitle goes here</p>
-      <h2>Title goes here</h2>
+    <SectionTitleStyle className="section-title">
+      <p>{subheading}</p>
+      <h2>{heading}</h2>
     </SectionTitleStyle>
   );
 }
