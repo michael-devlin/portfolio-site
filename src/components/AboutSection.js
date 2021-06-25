@@ -1,12 +1,35 @@
 import React from 'react';
+import styled from 'styled-components';
 import SectionTitle from './SectionTitle';
 import PText from './PText';
 import Button from './Button';
 import AboutImg from '../assets/images/about-sec-img.jpeg';
 
+const AboutSectionStyle = styled.div`
+  background-color: white;
+  padding: 10rem 0;
+  color: black;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+  }
+  .aboutSection__left,
+  .aboutSection__right {
+    flex: 1;
+  }
+  .section-title {
+    text-align: left;
+  }
+  .p {
+    color: var(--black);
+  }
+`;
+
 export default function AboutSection() {
   return (
-    <div>
+    <AboutSectionStyle>
       <div className="container">
         <div className="aboutSection__left">
           <SectionTitle
@@ -28,6 +51,6 @@ export default function AboutSection() {
           <img className="AboutImg" src={AboutImg} alt="" />
         </div>
       </div>
-    </div>
+    </AboutSectionStyle>
   );
 }

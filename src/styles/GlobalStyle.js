@@ -25,7 +25,13 @@ const GlobalStyles = createGlobalStyle`
   }
   a{
     text-decoration: none;
+  } 
+  p {
+    color: var(--black);
   }
+h2 {
+  color: var(--black);
+}
   img, svg{
     width: 100%;
     height: 100%;
