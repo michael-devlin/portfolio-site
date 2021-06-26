@@ -22,9 +22,14 @@ const HeroStyles = styled.div`
     .hero__info {
       margin-top: -0.5rem;
     }
+
     @media only screen and (max-width: 768px) {
       .hero {
         min-height: 750px;
+      }
+      .container {
+        margin-top: -420px;
+        margin-bottom: -675px;
       }
       .banner {
       }
