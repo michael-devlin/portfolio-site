@@ -20,7 +20,7 @@ const HeroStyles = styled.div`
     }
 
     .hero__info {
-      margin-top: -5rem;
+      margin-top: -0.5rem;
     }
     @media only screen and (max-width: 768px) {
       .hero {
@@ -33,9 +33,9 @@ const HeroStyles = styled.div`
         height: 147px;
       }
       .hero__info {
-        margin-top: -12rem;
+        margin-top: -9.5rem;
       }
-      .p {
+      p {
         font-size: 1.2rem;
       }
     }

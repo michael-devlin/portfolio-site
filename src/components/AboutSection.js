@@ -22,9 +22,51 @@ const AboutSectionStyle = styled.div`
   .section-title {
     text-align: left;
   }
-  .p {
+  p {
+    color: var(--black);
+    margin-top: 2rem;
+    margin-left: 0;
+  }
+  h2 {
     color: var(--black);
   }
+  .aboutSection__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  @media only screen and (max-width: 950px) {
+    .aboutSection_left {
+      flex: 4;
+    }
+    .aboutSection__right {
+      flex: 3;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+    ..aboutSection__left,
+    .aboutSection__right {
+      width: 100%;
+      margin-top: 3rem;
+    }
+    .section-title {
+      text-align: center;
+    }
+    p {
+      margin: 0 auto;
+      margin-top: 2rem;
+    }
+    .aboutSection__buttons {
+      flex-direction: column;
+      gap: 0;
+      .button
+    }
 `;
 
 export default function AboutSection() {
