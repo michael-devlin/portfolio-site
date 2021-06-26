@@ -7,39 +7,35 @@ import CavinImg from '../images/cavinimg.jpg';
 
 const projects = [
   {
-    id: "",
-    name: "",
-    desc: "",
-      
-    img: "",
+    id: '',
+    name: '',
+    desc: '',
+
+    img: '',
   },
   {
-    id: "",
-    name: "",
-    desc:
-      "",
-    img: "",
+    id: '',
+    name: '',
+    desc: '',
+    img: '',
   },
   {
-    id: "",
-    name: "",
-    desc:
-      "",
-    img: "",
+    id: '',
+    name: '',
+    desc: '',
+    img: '',
   },
   {
-    id: "",
-    name: "",
-    desc:
-      "",
-    img: "",
+    id: '',
+    name: '',
+    desc: '',
+    img: '',
   },
   {
-    id: "",
-    name: "",
-    desc:
-      "",
-    img: "",
+    id: '',
+    name: '',
+    desc: '',
+    img: '',
   },
 ];
 

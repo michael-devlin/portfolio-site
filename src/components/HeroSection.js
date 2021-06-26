@@ -20,7 +20,7 @@ const HeroStyles = styled.div`
     }
 
     .hero__info {
-      margin-top: -0.5rem;
+      margin-top: 1rem;
     }
 
     @media only screen and (max-width: 768px) {
