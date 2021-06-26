@@ -29,7 +29,7 @@ export default function Button({
   border = false,
 }) {
   return (
-    <BtnStyle border={border}>
+    <BtnStyle border={border} className="button-wrapper">
       <Link className="button" to={btnLink}>
         {btnText}
       </Link>

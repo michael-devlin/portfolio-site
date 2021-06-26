@@ -65,7 +65,11 @@ const AboutSectionStyle = styled.div`
     .aboutSection__buttons {
       flex-direction: column;
       gap: 0;
-      .button
+      .button-wrapper,
+      a {
+        width: 100%;
+        text-align: center;
+      }
     }
 `;
 
