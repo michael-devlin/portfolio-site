@@ -30,6 +30,7 @@ const ProjectItemStyles = styled.div`
     font-size: 1.6rem;
     font-family: 'Quicksand';
     margin-top: 1rem;
+    color: var(--light);
   }
 
   @media only screen and (max-width: 760px) {

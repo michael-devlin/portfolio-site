@@ -8,7 +8,7 @@ import AboutImg from '../assets/images/about-sec-img.jpeg';
 const AboutSectionStyle = styled.div`
   background-color: white;
   padding: 10rem 0;
-  color: black;
+  color: var(--black);
   .container {
     display: flex;
     align-items: center;

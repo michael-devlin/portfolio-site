@@ -7,6 +7,12 @@ import ProjectsItems from './ProjectsItems';
 
 const ProjectSecStyles = styled.div`
     background-color: white;
+  }
+  p {
+    color: var(--black);
+    margin-left: 0;
+  }
+  h2 {
     color: var(--black);
   }
 `;
@@ -15,6 +21,7 @@ export default function ProjectSec() {
     <ProjectSecStyles>
       <div className="container">
         <SectionTitle
+          className="section-title"
           heading="Projects"
           subheading="Examples of some of my work"
         />
