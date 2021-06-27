@@ -1,12 +1,18 @@
 import React from 'react';
 import { Swiper } from 'swiper/react';
+import styled from 'styled-components';
 import SectionTitle from './SectionTitle';
 import projects from '../assets/data/projects';
 import ProjectsItems from './ProjectsItems';
 
+const ProjectSecStyles = styled.div`
+    background-color: white;
+    color: var(--black);
+  }
+`;
 export default function ProjectSec() {
   return (
-    <div>
+    <ProjectSecStyles>
       <div className="container">
         <SectionTitle
           heading="Projects"
@@ -21,6 +27,6 @@ export default function ProjectSec() {
           </Swiper>
         </div>
       </div>
-    </div>
+    </ProjectSecStyles>
   );
 }

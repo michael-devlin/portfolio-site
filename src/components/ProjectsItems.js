@@ -5,16 +5,14 @@ import styled from 'styled-components';
 import projectImg from '../assets/images/projectImg.png';
 
 const ProjectItemStyles = styled.div`
-  .container {
-    background-color: white;
-  }
   .projectItem__img {
     width: 100%;
-    heght: 400px;
+    height: 400px;
     overflow: hidden;
     border-radius: 12px;
     display: inline-block;
-    border: 3px solid var(--bg);
+    background-color: var(--bg);
+    border: 3px solid var(--light);
     img {
       height: 100%;
     }
@@ -30,9 +28,10 @@ const ProjectItemStyles = styled.div`
   }
   .projectItem__desc {
     font-size: 1.6rem;
-    font-family: 'Quicksand Regular';
+    font-family: 'Quicksand';
     margin-top: 1rem;
   }
+
   @media only screen and (max-width: 760px) {
     .projectItem__img {
       height: 350px;
