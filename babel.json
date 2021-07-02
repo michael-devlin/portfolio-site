@@ -1,5 +1,7 @@
 {
-  "plugins": [ "inline-react-svg" ],
+  "plugins": [
+    "inline-react-svg"
+  ],
   "stories": [],
   "versions": [],
   "backups": [],
