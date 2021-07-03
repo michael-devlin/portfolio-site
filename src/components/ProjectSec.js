@@ -50,6 +50,7 @@ const ProjectSecStyles = styled.div`
     font-size: 2rem;
   }
 `;
+
 export default function ProjectSec() {
   return (
     <ProjectSecStyles>
@@ -60,7 +61,25 @@ export default function ProjectSec() {
           subheading="Examples of some of my work"
         />
         <div className="projects__allItems">
-          <Swiper spaceBetween={30} slidesPerView={2} navigation>
+          <Swiper
+            spaceBetween={30}
+            slidesPerView={1}
+            navigation
+            breakpoints={{
+              // when window width is >= 640px
+              640: {
+                slidesPerView: 1,
+              },
+              // when window width is >= 768px
+              768: {
+                slidesPerView: 2,
+              },
+              // when window width is >= 1200px
+              1200: {
+                slidesPerView: 3,
+              },
+            }}
+          >
             {projects.map((project, index) => {
               if (index >= 5) return;
               return (
