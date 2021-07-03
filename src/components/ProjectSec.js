@@ -49,6 +49,18 @@ const ProjectSecStyles = styled.div`
   .swiper-button-next::after {
     font-size: 2rem;
   }
+  /* @media only screen and (max-width: 768px) {
+    .projects__allItems {
+      flex-direction: column;
+      max-width: 400px;
+      margin: 0 auto;
+      margin-top: 7rem;
+      gap: 5rem;
+        .projectItem__img {
+          width: 100%;
+        }
+    }
+  } */
 `;
 
 export default function ProjectSec() {
@@ -83,8 +95,12 @@ export default function ProjectSec() {
             {projects.map((project, index) => {
               if (index >= 5) return;
               return (
-                <SwiperSlide key="project.id">
-                  <ProjectsItems />
+                <SwiperSlide key={project.id}>
+                  <ProjectsItems
+                    title={project.title}
+                    img={project.img}
+                    desc={project.desc}
+                  />
                 </SwiperSlide>
               );
             })}
