@@ -1,6 +1,7 @@
 import React from 'react';
 import { SwitchTransition, CSSTransition } from 'react-transition-group';
 import styled from 'styled-components';
+import { MdArrowBack, MdArrowForward } from 'react-icons/md';
 import SectionTitle from './SectionTitle';
 import PText from './PText';
 
@@ -34,29 +35,54 @@ font-size: 2.2rem;
 font-size: 1.6rem;
 margin-top: 0.3rem;
 }
+.arrows {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  svg {
+    width: 30px;
+    pointer-events: none;
+  }
+  .next,
+  .prev {
+    margin: 0 0.5rem;
+    width: fit-content;
+    background-color: var(--bg);
+    padding: .5rem 2rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+}
 `;
 
 export default function EndorsementsSec() {
   return (
     <EndorsementsSecStyles>
-      <div>
-        <div className="container">
-          <SectionTitle
-            heading="Endorsements"
-            subheading="what my colleagues have to say about my work"
-          />
-          <div className="endorsements__wrapper">
-            <SwitchTransition>
-              <CSSTransition>
-                <div className="endorsements__info">
-                  <div className="endorsements__desc">
-                    <PText>Text goes here.</PText>
-                  </div>
-                  <h2 className="endorsement__name">Michael Devlin</h2>
-                  <p className="endorsement__title">Software Developer</p>
+      <div className="container">
+        <SectionTitle
+          heading="Endorsements"
+          subheading="what my colleagues have to say about my work"
+        />
+        <div className="endorsements__wrapper">
+          <SwitchTransition>
+            <CSSTransition>
+              <div className="endorsements__info">
+                <div className="endorsements__desc">
+                  <PText>Text goes here.</PText>
                 </div>
-              </CSSTransition>
-            </SwitchTransition>
+                <h2 className="endorsement__name">Michael Devlin</h2>
+                <p className="endorsement__title">Software Developer</p>
+              </div>
+            </CSSTransition>
+          </SwitchTransition>
+        </div>
+        <div className="arrows">
+          <div className="prev">
+            <MdArrowBack />
+          </div>
+          <div className="next">
+            <MdArrowForward />
           </div>
         </div>
       </div>
