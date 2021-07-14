@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { SwitchTransition, CSSTransition } from 'react-transition-group';
 import styled from 'styled-components';
 import { MdArrowBack, MdArrowForward } from 'react-icons/md';
 import SectionTitle from './SectionTitle';
 import PText from './PText';
+import endorsements from '../assets/data/endorsements';
 
 const EndorsementsSecStyles = styled.div`::after
 padding: 10rem 0;
@@ -57,6 +58,8 @@ margin-top: 0.3rem;
 `;
 
 export default function EndorsementsSec() {
+  const [activeIndex, setActiveIndex] = useState(0);
+  const activeSlide = endorsements[activeIndex];
   return (
     <EndorsementsSecStyles>
       <div className="container">
@@ -69,10 +72,12 @@ export default function EndorsementsSec() {
             <CSSTransition>
               <div className="endorsements__info">
                 <div className="endorsements__desc">
-                  <PText>Text goes here.</PText>
+                  <PText>{activeSlide.desc}</PText>
                 </div>
-                <h2 className="endorsement__name">Michael Devlin</h2>
-                <p className="endorsement__title">Software Developer</p>
+                <h2 className="endorsement__name">{activeSlide.name}</h2>
+                <p className="endorsement__title">
+                  – {activeSlide.title}, {activeSlide.org}
+                </p>
               </div>
             </CSSTransition>
           </SwitchTransition>
