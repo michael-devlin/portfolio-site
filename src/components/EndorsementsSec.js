@@ -55,11 +55,43 @@ margin-top: 0.3rem;
     cursor: pointer;
   }
 }
+.fade-enter {
+  opacity: 0;
+  transform: scale(.96);
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: 250ms ease-in opacity;
+  transition-property: opacity, transform;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: 250ms ease-in opacity;
+}
 `;
 
 export default function EndorsementsSec() {
   const [activeIndex, setActiveIndex] = useState(0);
   const activeSlide = endorsements[activeIndex];
+
+  function handlePrev() {
+    if (activeIndex === 0) {
+      setActiveIndex(endorsements.length - 1);
+    } else {
+      setActiveIndex((oldIndex) => oldIndex - 1);
+    }
+  }
+  function handleNext() {
+    if (activeIndex >= endorsements.length - 1) {
+      setActiveIndex(0);
+    } else {
+      setActiveIndex((oldIndex) => oldIndex + 1);
+    }
+  }
+
   return (
     <EndorsementsSecStyles>
       <div className="container">
@@ -69,24 +101,37 @@ export default function EndorsementsSec() {
         />
         <div className="endorsements__wrapper">
           <SwitchTransition>
-            <CSSTransition>
+            <CSSTransition key={activeSlide.id} timeout={300} classNames="fade">
               <div className="endorsements__info">
                 <div className="endorsements__desc">
                   <PText>{activeSlide.desc}</PText>
                 </div>
                 <h2 className="endorsement__name">{activeSlide.name}</h2>
                 <p className="endorsement__title">
-                  – {activeSlide.title}, {activeSlide.org}
+                  – {activeSlide.title}, <br />
+                  {activeSlide.org}
                 </p>
               </div>
             </CSSTransition>
           </SwitchTransition>
         </div>
         <div className="arrows">
-          <div className="prev">
+          <div
+            className="prev"
+            onClick={handlePrev}
+            role="button"
+            tabIndex={0}
+            onKeyDown={handlePrev}
+          >
             <MdArrowBack />
           </div>
-          <div className="next">
+          <div
+            className="next"
+            onClick={handleNext}
+            role="button"
+            tabIndex={0}
+            onKeyDown={handleNext}
+          >
             <MdArrowForward />
           </div>
         </div>
