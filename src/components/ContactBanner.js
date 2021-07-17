@@ -8,6 +8,12 @@ const ContactBannerStyles = styled.div`
   .contactBanner__wrapper {
     background-color: var(--black);
     border-radius: 12px;
+    padding: 5rem 0rem;
+    text-align: center;
+  }
+  .contactBanner__heading {
+    font-size: 4rem;
+    margin-bottom: 2rem;
   }
 `;
 
