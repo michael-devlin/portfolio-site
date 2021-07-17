@@ -15,6 +15,11 @@ const ContactBannerStyles = styled.div`
     font-size: 4rem;
     margin-bottom: 2rem;
   }
+  @media only screen and (max-width: 768px) {
+    .contactBanner__heading {
+      font-size: 2.8rem;
+    }
+  }
 `;
 
 export default function ContactBanner() {
