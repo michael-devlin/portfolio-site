@@ -1,10 +1,19 @@
 import React from 'react';
+import styled from 'styled-components';
 import Button from './Button';
 import PText from './PText';
 
+const ContactBannerStyles = styled.div`
+  padding: 10rem 0;
+  .contactBanner__wrapper {
+    background-color: var(--black);
+    border-radius: 12px;
+  }
+`;
+
 export default function ContactBanner() {
   return (
-    <div>
+    <ContactBannerStyles>
       <div className="container">
         <div className="contactBanner__wrapper">
           <PText>Have a query?</PText>
@@ -12,6 +21,6 @@ export default function ContactBanner() {
           <Button btnText="Contact Me" btnLink="/contact" />
         </div>
       </div>
-    </div>
+    </ContactBannerStyles>
   );
 }
