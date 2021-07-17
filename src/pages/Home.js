@@ -4,6 +4,7 @@ import AboutSection from '../components/AboutSection';
 import ProjectSec from '../components/ProjectSec';
 import EndorsementsSec from '../components/EndorsementsSec';
 import ContactBanner from '../components/ContactBanner';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <ProjectSec />
       <EndorsementsSec />
       <ContactBanner />
+      <Footer />
     </div>
   );
 }
