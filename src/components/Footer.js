@@ -6,8 +6,23 @@ import FooterColumn from './FooterColumn';
 const FooterStyles = styled.div`
   padding-top: 10rem;
   background-color: var(--black);
+  .container {
+    display: flex;
+    gap: 3rem;
+  }
+  .footer__column {
+    flex: 2;
+  }
+  .footer__column2,
+  .footer__column3,
+  .footer__column4 {
+    flex: 1;
+  }
+  .footer__column__title {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+  }
 `;
-
 export default function Footer() {
   return (
     <FooterStyles>
