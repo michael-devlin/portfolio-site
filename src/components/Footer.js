@@ -35,7 +35,31 @@ export default function Footer() {
           </PText>
         </div>
         <div className="footer__column2">
-          <FooterColumn />
+          <FooterColumn
+            heading="Links"
+            links={[
+              {
+                title: 'Home',
+                path: '/',
+                type: 'Link',
+              },
+              {
+                title: 'About',
+                path: '/about',
+                type: 'Link',
+              },
+              {
+                title: 'Projects',
+                path: '/projects',
+                type: 'Link',
+              },
+              {
+                title: 'Contact',
+                path: '/contact',
+                type: 'Link',
+              },
+            ]}
+          />
         </div>
         <div className="footer__column3">
           <FooterColumn />
