@@ -22,6 +22,14 @@ const FooterStyles = styled.div`
     font-size: 3.5rem;
     margin-bottom: 1rem;
   }
+  .copyright {
+    text-align: left;
+    padding: 1rem 0;
+    margin-top: 5rem;
+    .para {
+      margin-left: 0;
+    }
+  }
 `;
 export default function Footer() {
   return (
@@ -62,10 +70,41 @@ export default function Footer() {
           />
         </div>
         <div className="footer__column3">
-          <FooterColumn />
+          <FooterColumn
+            heading="Contact Info"
+            links={[
+              {
+                title: 'michaeldevfay@gmail.com',
+                path: 'mailto:michaeldevfay@gmail.com',
+              },
+              {
+                title: '+447942679140',
+              },
+              {
+                title: 'London, UK',
+              },
+            ]}
+          />
         </div>
         <div className="footer__column4">
-          <FooterColumn />
+          <FooterColumn
+            heading="Links"
+            links={[
+              {
+                title: 'LinkedIn',
+                path: 'https://www.linkedin.com/in/michael-devlin-/',
+              },
+              {
+                title: 'GitHub',
+                path: 'https://github.com/michael-devlin',
+              },
+            ]}
+          />
+        </div>
+      </div>
+      <div className="copyright">
+        <div className="container">
+          <PText> © 2021 - Michael Devlin | All rights reserved</PText>
         </div>
       </div>
     </FooterStyles>
