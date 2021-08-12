@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import PText from '../components/PText';
 import AboutImg from '../assets/images/about-sec-img.jpeg';
+import Button from '../components/Button';
 
 const AboutPageStyles = styled.div`
   padding: 20rem 0 10rem 0;
@@ -41,6 +42,11 @@ const AboutPageStyles = styled.div`
       max-width: 100%;
     }
   }
+  .right {
+    img {
+      border: 2px solid var(--gray-1);
+    }
+  }
 `;
 
 export default function About() {
@@ -73,9 +79,10 @@ export default function About() {
                   in the Projects section of this site.
                 </PText>
               </div>
-              <div className="right">
-                <img src={AboutImg} alt="me" />
-              </div>
+              <Button btnText="Download CV" btnLink="#" />
+            </div>
+            <div className="right">
+              <img src={AboutImg} alt="me" />
             </div>
           </div>
         </div>
