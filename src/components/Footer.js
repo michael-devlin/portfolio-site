@@ -38,8 +38,8 @@ export default function Footer() {
         <div className="footer__column">
           <h1 className="footer__column__title">Michael Devlin</h1>
           <PText>
-            A web developer and designer based in London with an eye for UX and
-            accessible design.
+            A software developer and designer with an eye for UX and accessible
+            design.
           </PText>
         </div>
         <div className="footer__column2">
