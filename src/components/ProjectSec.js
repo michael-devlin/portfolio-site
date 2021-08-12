@@ -97,7 +97,7 @@ export default function ProjectSec() {
               return (
                 <SwiperSlide key={project.id}>
                   <ProjectsItems
-                    title={project.title}
+                    title={project.name}
                     img={project.img}
                     desc={project.desc}
                   />
