@@ -13,7 +13,7 @@ const NavMenuStyles = styled.div`
   padding: 2.5rem 0;
   ul {
     max-width: 1200px;
-    margin: 0 auro;
+    margin: 0 auto;
     width: 90%;
     text-align: center;
     li {
