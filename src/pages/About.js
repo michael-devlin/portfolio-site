@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import PText from '../components/PText';
 import AboutImg from '../assets/images/about-sec-img.jpeg';
 import Button from '../components/Button';
+import AboutInfoItem from '../components/AboutInfoItem';
 
 const AboutPageStyles = styled.div`
   padding: 20rem 0 10rem 0;
@@ -83,6 +84,19 @@ export default function About() {
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />
+            </div>
+          </div>
+          <div className="about__info__items">
+            <div className="about__info__item">
+              <h1 className="about__info__heading">Education</h1>
+              <AboutInfoItem
+                title="Masters Degree"
+                items={['Linköping University, Sweden']}
+              />
+              <AboutInfoItem
+                title="Bachelors Degree Degree"
+                items={['SAE Institute, Liverpool']}
+              />
             </div>
           </div>
         </div>
