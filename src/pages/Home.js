@@ -14,7 +14,6 @@ export default function Home() {
       <ProjectSec />
       <EndorsementsSec />
       <ContactBanner />
-      <Footer />
     </div>
   );
 }
