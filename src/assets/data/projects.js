@@ -3,9 +3,15 @@ import ChummyImg from '../images/chummy.png';
 import MindfulImg from '../images/mindful.png';
 import TwaddleImg from '../images/twaddle.png';
 import DonQuizoteImg from '../images/donquizote.png';
-import FacAppSite from '../images/quotegenerator.png';
+import MoveAndCodeImg from '../images/MoveAndCode.png';
 
 const projects = [
+  {
+    id: uuidv4(),
+    name: 'Move and Code – Pell Ensemble',
+    desc: 'Building and designing a webcam-based app for Pell Ensemble.',
+    img: MoveAndCodeImg,
+  },
   {
     id: uuidv4(),
     name: 'Chummy',
@@ -32,13 +38,6 @@ const projects = [
     name: 'Don Quizote',
     desc: 'A client-side based blog app built as a pair project using React',
     img: DonQuizoteImg,
-  },
-  {
-    id: uuidv4(),
-    name: 'Quote Generator – FAC Application',
-    desc:
-      'My application site for FAC – featuring a quote generator built using JS, HTML & CSS',
-    img: FacAppSite,
   },
 ];
 
