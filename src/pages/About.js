@@ -109,16 +109,29 @@ export default function About() {
           </div>
           <div className="about__info__items">
             <div className="about__info__item">
-              <h1 className="about__info__heading">Education</h1>
+              <h1 className="about__info__heading">Skills</h1>
               <AboutInfoItem
-                title="Masters"
-                items={['Linköping University, Sweden']}
+                title="FrontEnd"
+                items={['HTML', 'CSS', 'JavaScript', 'REACT']}
               />
               <AboutInfoItem
-                title="Bachelors"
-                items={['SAE Institute, Liverpool']}
+                title="BackEnd"
+                items={['Node', 'PostgreSQL', 'Express']}
+              />
+              <AboutInfoItem
+                title="Design"
+                items={['Figma', 'Photoshop', 'Canva']}
               />
             </div>
+            <h1 className="about__info__heading">Education</h1>
+            <AboutInfoItem
+              title="Masters"
+              items={['Linköping University, Sweden']}
+            />
+            <AboutInfoItem
+              title="Bachelors"
+              items={['SAE Institute, Liverpool']}
+            />
           </div>
         </div>
       </AboutPageStyles>
