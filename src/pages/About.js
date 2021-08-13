@@ -4,6 +4,7 @@ import PText from '../components/PText';
 import AboutImg from '../assets/images/about-sec-img.jpeg';
 import Button from '../components/Button';
 import AboutInfoItem from '../components/AboutInfoItem';
+import ContactBanner from '../components/ContactBanner';
 
 const AboutPageStyles = styled.div`
   padding: 20rem 0 10rem 0;
@@ -151,6 +152,7 @@ export default function About() {
             </div>
           </div>
         </div>
+        <ContactBanner />
       </AboutPageStyles>
     </>
   );
