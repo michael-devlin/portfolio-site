@@ -123,15 +123,32 @@ export default function About() {
                 items={['Figma', 'Photoshop', 'Canva']}
               />
             </div>
-            <h1 className="about__info__heading">Education</h1>
-            <AboutInfoItem
-              title="Masters"
-              items={['Linköping University, Sweden']}
-            />
-            <AboutInfoItem
-              title="Bachelors"
-              items={['SAE Institute, Liverpool']}
-            />
+            <div className="about__info__item">
+              <h1 className="about__info__heading">Experience</h1>
+              <AboutInfoItem
+                title="June 21 - Aug 21"
+                items={['Product Designer/Developer for Pell Ensemble']}
+              />
+              <AboutInfoItem
+                title="Mar 21 - June 21"
+                items={['Software Engineer Trainee at Founders & Coders']}
+              />
+              <AboutInfoItem
+                title="2018-2021"
+                items={['Publishing Edtior at Microbiology Society']}
+              />
+            </div>
+            <div className="about__info__item">
+              <h1 className="about__info__heading">Education</h1>
+              <AboutInfoItem
+                title="Masters"
+                items={['Linköping University, Sweden']}
+              />
+              <AboutInfoItem
+                title="Bachelors"
+                items={['SAE Institute, Liverpool']}
+              />
+            </div>
           </div>
         </div>
       </AboutPageStyles>
