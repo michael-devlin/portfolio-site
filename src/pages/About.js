@@ -102,7 +102,7 @@ export default function About() {
                   in the Projects section of this site.
                 </PText>
               </div>
-              <Button btnText="Download CV" btnLink="#" />
+              {/* <Button btnText="Download CV" btnLink="#" /> */}
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />

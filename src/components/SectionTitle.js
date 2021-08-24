@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const SectionTitleStyle = styled.div`
 text-align:center;
-  font-size: 1.45rem;
+  font-size: 1.5rem;
 p {
     font-family: 'Quicksand Regular'
     font-size: 3.5rem;
