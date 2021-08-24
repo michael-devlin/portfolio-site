@@ -11,14 +11,14 @@ SwiperCore.use([Navigation]);
 
 const ProjectSecStyles = styled.div`
     padding: 10rem 0;
-    background-color: white;
+    background-color: var(--black);
   }
   p {
-    color: var(--black);
+    color: var(--white);
     margin-left: 0;
   }
   h2 {
-    color: var(--black);
+    color: var(--bg);
   }
   .projects__allItems {
     display: flex;

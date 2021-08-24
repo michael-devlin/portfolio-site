@@ -4,6 +4,7 @@ import MontserratSemiBold from '../assets/fonts/Montserrat-SemiBold.ttf';
 import MontserratBold from '../assets/fonts/Montserrat-Bold.ttf';
 import QuicksandBold from '../assets/fonts/Quicksand-Bold.otf';
 import Quicksand from '../assets/fonts/Quicksand-Regular.otf';
+import RecursiveMono from '../assets/fonts/Recursive_Monospace-Regular.ttf';
 
 const Typography = createGlobalStyle`
   @font-face {
@@ -19,7 +20,7 @@ const Typography = createGlobalStyle`
   @font-face {
     font-family: 'Montserrat Bold';
     src: url(${MontserratBold});
-    font-style: normal;s
+    font-style: normal;
   }
   @font-face {
     font-family: 'Quicksand Bold';
@@ -31,12 +32,17 @@ const Typography = createGlobalStyle`
     src: url(${Quicksand});
     font-style: normal;
   }
+    @font-face {
+    font-family: 'Recursive Mono';
+    src: url(${RecursiveMono});
+    font-style: normal;
+  }
   html{
     font-family: 'RobotoMono Regular';
     color: var(--gray-1);
   }
   *{
-    font-family: 'Quicksand';
+    font-family: 'Recursive Mono';
     color: var(--light);
   }
   h1,h2,h3,h4,h5,h6{

@@ -26,7 +26,7 @@ const NavMenuStyles = styled.div`
     }
     a {
       display: inline-block;
-      font-family: 'Quicksand';
+      font-family: 'Recursive Mono';
       padding: 1rem 1rem;
       font-size: 2rem;
       color: var(--bg);

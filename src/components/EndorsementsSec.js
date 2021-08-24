@@ -7,6 +7,7 @@ import PText from './PText';
 import endorsements from '../assets/data/endorsements';
 
 const EndorsementsSecStyles = styled.div`::after
+margin-top: 2px;
 padding: 10rem 0;
 text-align: center;
 .endorsements__wrapper {
