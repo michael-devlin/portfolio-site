@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { MdSearch } from 'react-icons/md';
 import SectionTitle from '../components/SectionTitle';
@@ -32,10 +32,36 @@ const ProjectStyle = styled.div`
     width: 2rem;
     right: 1rem;
   }
+  .projects__searchBar .searchIcon path {
+    color: var(--deep-dark);
+  }
+  @media only screen and (max-width: 768px) {
+    .projects__searchBar,
+    .projects__searchBar form,
+    .projects__searchBar input {
+      width: 100%;
+    }
+  }
 `;
 
 export default function Projects() {
+  const [searchText, setSearchText] = useState('');
   const [projectsData, setProjectsData] = useState(ProjectInfo);
+  useEffect(() => {
+    if (searchText === '') return;
+    setProjectsData(() =>
+      ProjectInfo.filter((item) =>
+        item.name.toLowerCase().match(searchText.toLowerCase())
+      )
+    );
+  }, [searchText]);
+  const handleChange = (e) => {
+    e.preventDefault();
+    setSearchText(e.target.value);
+    if (!e.target.value.length > 0) {
+      setProjectsData(ProjectInfo);
+    }
+  };
   return (
     <>
       <ProjectStyle>
@@ -45,8 +71,8 @@ export default function Projects() {
             <form>
               <input
                 type="text"
-                // value={searchText}
-                // onChange={handleChange}
+                value={searchText}
+                onChange={handleChange}
                 placeholder="Project Name"
               />
               <MdSearch className="searchIcon" />
