@@ -33,6 +33,12 @@ const ProjectItemStyles = styled.div`
     margin-top: 1rem;
     color: var(--light);
   }
+  .projectItem__link {
+    font-size: 1.3rem;
+    font-family: 'Recursive Mono';
+    margin-top: 1rem;
+    color: var(--bg);
+  }
 
   @media only screen and (max-width: 760px) {
     .projectItem__img {
@@ -45,6 +51,7 @@ export default function ProjectsItems({
   img = projectImg,
   title = 'Project Name',
   desc = 'Description goes here',
+  link = '',
 }) {
   return (
     <ProjectItemStyles>
@@ -56,6 +63,7 @@ export default function ProjectsItems({
           <h3 className="projectItem__title">{title}</h3>
         </Link>
         <p className="projectItem__desc">{desc}</p>
+        <p className="projectItem__link">{link}</p>
       </div>
     </ProjectItemStyles>
   );

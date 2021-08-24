@@ -11,6 +11,7 @@ const projects = [
     name: 'Move and Code – Pell Ensemble',
     desc: 'Building and designing a webcam-based app for Pell Ensemble.',
     img: MoveAndCodeImg,
+    link: 'https://github.com/tech-for-better/pell-ensemble-mm',
   },
   {
     id: uuidv4(),
@@ -19,6 +20,7 @@ const projects = [
       'A full-stack app built as a team of four for our final project at FAC.',
 
     img: ChummyImg,
+    link: 'https://github.com/fac21/Final-project-NSMM',
   },
   {
     id: uuidv4(),
@@ -26,18 +28,21 @@ const projects = [
     desc:
       'A Pomodoro Timer I built as a solo project using Vanilla JS, HTML and CSS',
     img: MindfulImg,
+    link: 'https://github.com/fac21/the_mindful_pomodoro',
   },
   {
     id: uuidv4(),
     name: 'Twaddle',
     desc: 'A server-side based blog app built collaboratively during FAC',
     img: TwaddleImg,
+    link: 'https://github.com/fac21/week4-blog-SMCJ',
   },
   {
     id: uuidv4(),
     name: 'Don Quizote',
     desc: 'A client-side based blog app built as a pair project using React',
     img: DonQuizoteImg,
+    link: 'https://github.com/fac21/Week-8-MM-Quiz',
   },
 ];
 
