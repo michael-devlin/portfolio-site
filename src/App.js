@@ -28,8 +28,8 @@ export default function App() {
               <Home />
             </Route>
           </Switch>
+          <Footer />
         </SmoothScrollbar>
-        <Footer />
       </Router>
     </>
   );

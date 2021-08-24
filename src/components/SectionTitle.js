@@ -8,7 +8,7 @@ p {
     font-size: 2rem;
 }
 h2 {
-    font-family: 'Montserrat Bold';
+  font-family: 'Quicksand Bold';
     font-size: 6rem;
     margin-top: 0.5rem;
     text-transform: uppercase;
