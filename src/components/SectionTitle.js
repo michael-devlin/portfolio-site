@@ -3,15 +3,17 @@ import styled from 'styled-components';
 
 const SectionTitleStyle = styled.div`
 text-align:center;
+  font-size: 1.45rem;
 p {
     font-family: 'Quicksand Regular'
-    font-size: 2rem;
+    font-size: 3.5rem;
 }
 h2 {
   font-family: 'Quicksand Bold';
     font-size: 6rem;
     margin-top: 0.5rem;
     text-transform: uppercase;
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -25,8 +27,8 @@ h2 {
 `;
 
 export default function SectionTitle({
-  subheading = 'Need Subheading',
-  heading = 'need heading',
+  subheading = 'Subheading',
+  heading = 'Heading',
 }) {
   return (
     <SectionTitleStyle className="section-title">

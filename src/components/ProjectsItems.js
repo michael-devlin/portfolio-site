@@ -19,16 +19,17 @@ const ProjectItemStyles = styled.div`
   }
   .projectItem__info {
     margin-top: 1rem;
-    background-color: var(--bg);
+    background-color: var(--black);
     padding: 1rem;
     border-radius: 12px;
   }
   .projectItem__title {
     font-size: 2.2rem;
+    color: var(--bg);
   }
   .projectItem__desc {
     font-size: 1.6rem;
-    font-family: 'Quicksand';
+    font-family: 'Recursive Mono';
     margin-top: 1rem;
     color: var(--light);
   }

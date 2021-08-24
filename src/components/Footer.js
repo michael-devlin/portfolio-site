@@ -6,6 +6,7 @@ import FooterColumn from './FooterColumn';
 const FooterStyles = styled.div`
   padding-top: 10rem;
   background-color: var(--black);
+  font-size: 1.45rem;
   .container {
     display: flex;
     gap: 3rem;
@@ -21,6 +22,7 @@ const FooterStyles = styled.div`
   .footer__column__title {
     font-size: 3.5rem;
     margin-bottom: 1rem;
+    color: var(--bg);
   }
   .copyright {
     text-align: left;
@@ -28,6 +30,7 @@ const FooterStyles = styled.div`
     margin-top: 5rem;
     .para {
       margin-left: 0;
+      color: var(--bg);
     }
   }
 `;
@@ -88,7 +91,7 @@ export default function Footer() {
         </div>
         <div className="footer__column4">
           <FooterColumn
-            heading="Links"
+            heading="Profiles"
             links={[
               {
                 title: 'LinkedIn',

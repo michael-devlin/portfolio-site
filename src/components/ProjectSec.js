@@ -11,7 +11,7 @@ SwiperCore.use([Navigation]);
 
 const ProjectSecStyles = styled.div`
     padding: 10rem 0;
-    background-color: var(--black);
+    background-color: var(--deep-dark);
   }
   p {
     color: var(--white);
