@@ -16,7 +16,7 @@ const HeroStyles = styled.div`
     justify-content: center;
 
     .banner {
-      margin-top: -185px;
+      margin-top: -100px;
     }
 
     .hero__info {
@@ -30,8 +30,6 @@ const HeroStyles = styled.div`
       .container {
         margin-top: -420px;
         margin-bottom: -675px;
-      }
-      .banner {
       }
       .hero__img {
         margin-top: -140px;
