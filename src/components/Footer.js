@@ -33,6 +33,25 @@ const FooterStyles = styled.div`
       color: var(--bg);
     }
   }
+  @media only screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      gap: 0rem;
+      & > div {
+        margin-top: 5rem;
+      }
+    }
+    .footer__column1 .para {
+      max-width: 100%;
+    }
+    .copyright {
+      .container {
+        div {
+          margin-top: 0;
+        }
+      }
+    }
+  }
 `;
 export default function Footer() {
   return (
