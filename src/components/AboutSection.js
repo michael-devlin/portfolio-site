@@ -25,7 +25,7 @@ const AboutSectionStyle = styled.div`
   p {
     color: var(--black);
     margin-top: 2rem;
-    margin-left: 0;
+    margin-left: -4rem;
   }
   h2 {
     color: var(--black);
@@ -50,7 +50,7 @@ const AboutSectionStyle = styled.div`
       flex-direction: column;
       text-align: center;
     }
-    ..aboutSection__left,
+    .aboutSection__left,
     .aboutSection__right {
       width: 100%;
       margin-top: 3rem;
@@ -80,7 +80,7 @@ export default function AboutSection() {
         <div className="aboutSection__left">
           <SectionTitle
             className="section-title"
-            subheading="Allow me to introduce myself..."
+            subheading=""
             heading="ABOUT ME"
           />
           <PText>
