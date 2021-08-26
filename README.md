@@ -20,11 +20,11 @@ I decided to use React as a framework and Netlify as my deployment host. I made 
 - Netlify
 
 ### Dependencies
-styled-components
-swiper
-smooth-scrollbar
-react-smooth-scrollbar
-react-icons/md
+- styled-components
+- swiper
+- smooth-scrollbar
+- react-smooth-scrollbar
+- react-icons/md
 
 ### Notes
 
