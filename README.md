@@ -6,6 +6,12 @@ I built this portfolio to showcase some of the projects I worked on collaborativ
 
 I decided to use React as a framework and Netlify as my deployment host. I made this choice so as to further solidify my knowledge in React and to gain more experience using Netlify (I had previously mainly used Vercel & Heroku).
 
+### Features
+- Navbar with responsive design
+- Contact Form for contacting me via e-mail
+- Colourful design using ```styled components```
+- High accessibility
+
 ### Tech Stack:
 - ReactJS
 - Styled Components
@@ -23,5 +29,6 @@ react-icons/md
 ### Notes
 
 The site is mobile responsive but may appear different across devices. Everything is now fully functionable and the site is deployed but I may add some further features within the coming weeks.
+
 
 ###### *Banner illustration by Storyset. Design by Michael Devlin © Copyright 2021*
