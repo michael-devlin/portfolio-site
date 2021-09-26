@@ -21,7 +21,7 @@ p {
     font-size: 1.2rem
 }
 h2 {
-    font-size: 3.5rem;
+    font-size: 3.4rem;
 }
 }
 `;
