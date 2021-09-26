@@ -43,6 +43,13 @@ const ProjectItemStyles = styled.div`
   @media only screen and (max-width: 768px) {
     .projectItem__img {
       height: 350px;
+      width: 90%;
+    }
+    .projectItem__link {
+      font-size: 1rem;
+    }
+    .projectItem__info {
+      width: 95%;
     }
   }
 `;
