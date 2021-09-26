@@ -40,7 +40,7 @@ const ProjectItemStyles = styled.div`
     color: var(--bg);
   }
 
-  @media only screen and (max-width: 760px) {
+  @media only screen and (max-width: 768px) {
     .projectItem__img {
       height: 350px;
     }
