@@ -87,11 +87,10 @@ export default function About() {
               </h2>
               <div className="about__info">
                 <PText>
-                  I'm a Software Developer with an aptitude for user-oriented,
+                  I'm currently working as a Product Owner, although I still dabble with code. I have a passion for for user-oriented,
                   accessible design. I'm also a former Publishing Editor with a
                   background in teaching English, and I hold an MA (Distinction)
-                  in Applied Ethics. My current working stack is JavaScript,
-                  React, CSS, HTML, and I have also been dabbling with NextJS.
+                  in Applied Ethics.
                   <br />
                   <br />I made the career switch into tech so I could learn more
                   about the technology behind the types of software I was using
