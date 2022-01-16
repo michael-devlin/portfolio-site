@@ -83,7 +83,7 @@ export default function About() {
                 Hi, I am <span>Michael</span>
               </p>
               <h2 className="about__heading">
-                <span>A Software Developer</span>
+                <span>A UX Engineer</span>
               </h2>
               <div className="about__info">
                 <PText>
