@@ -11,6 +11,7 @@ I decided to use React as a framework and Netlify as my deployment host. I made 
 - Contact Form for contacting me via e-mail
 - Colourful design using ```styled components```
 - High accessibility
+- Slick "easy" scroll feature
 
 ### Tech Stack:
 - ReactJS
