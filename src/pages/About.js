@@ -87,9 +87,9 @@ export default function About() {
               </h2>
               <div className="about__info">
                 <PText>
-                  I'm currently working as a Product Owner, although I still dabble with code. I have a passion for for user-oriented,
-                  accessible design. I'm also a former Publishing Editor with a
-                  background in teaching English, and I hold an MA (Distinction)
+                  I have a passion for for helping design and engineer
+                  user-oriented products. I'm a former Publishing Editor with a
+                  background in teaching English and I hold an MA (Distinction)
                   in Applied Ethics.
                   <br />
                   <br />I made the career switch into tech so I could learn more
@@ -98,7 +98,8 @@ export default function About() {
                   life. It started as a hobby and has since become a
                   professional interest. You can find links to some of the
                   projects I've worked on – both independently and as a team –
-                  in the Projects section of this site.
+                  in the Projects section of this site. For all of these
+                  projects, I worked as both designer and engineer.
                 </PText>
               </div>
               {/* <Button btnText="Download CV" btnLink="#" /> */}
@@ -120,14 +121,18 @@ export default function About() {
               />
               <AboutInfoItem
                 title="Design"
-                items={['Figma', 'Photoshop', 'Canva']}
+                items={['Figma', 'Photoshop', 'Miro']}
               />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">Experience</h1>
               <AboutInfoItem
+                title="Oct 21 - Present"
+                items={['Product Owner / User Researcher at SIDE Labs']}
+              />
+              <AboutInfoItem
                 title="June 21 - Aug 21"
-                items={['Product Designer/Developer for Pell Ensemble']}
+                items={['Product Designer / UX Engineer for Pell Ensemble']}
               />
               <AboutInfoItem
                 title="Mar 21 - June 21"

@@ -60,8 +60,7 @@ export default function Footer() {
         <div className="footer__column">
           <h1 className="footer__column__title">Michael Devlin</h1>
           <PText>
-            A software developer and designer with an eye for UX and accessible
-            design.
+            A UX Engineer and Researcher with an aptitude for design.
           </PText>
         </div>
         <div className="footer__column2">
@@ -126,7 +125,7 @@ export default function Footer() {
       </div>
       <div className="copyright">
         <div className="container">
-          <PText> © 2021 - Michael Devlin | All rights reserved</PText>
+          <PText> © 2022 - Michael Devlin | All rights reserved</PText>
         </div>
       </div>
     </FooterStyles>

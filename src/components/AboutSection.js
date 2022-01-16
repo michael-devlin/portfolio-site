@@ -84,9 +84,9 @@ export default function AboutSection() {
             heading="ABOUT ME"
           />
           <PText>
-            I am a web designer and developer based in London. I create
-            UX-centred websites and web apps. In my spare time, I enjoy hiking,
-            reading and practicing yoga.
+            I am a UX Engineeer and User Researcher based in London. I create
+            user-centred websites and web apps. In my spare time, I enjoy hiking
+            and practicing yoga.
           </PText>
           <div className="aboutSection__buttons">
             <Button btnLink="/projects" btnText="My Work" />
