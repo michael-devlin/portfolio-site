@@ -1,6 +1,6 @@
 ## Personal portfolio site built using React / hosted by Netflify
 
-![](https://user-images.githubusercontent.com/23028288/122434214-ce658f00-cf8e-11eb-93cb-c27f63585f0c.png)
+![](Copy of Pink and Peach Health LinkedIn Banner](https://user-images.githubusercontent.com/23028288/149920266-65a42599-0372-4c14-8e43-fb9f186095a0.png)
 
 I built this portfolio to showcase some of the projects I worked on collaboratively during my time at Founders & Coders – a full stack, peer-led, bootcamp based in London – as well as some of the projcets I have built alone.
 
