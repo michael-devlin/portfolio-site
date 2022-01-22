@@ -21,8 +21,8 @@ const AboutPageStyles = styled.div`
     flex: 2;
   }
   .about__subheading {
-    font-size: 2.2rem;
-    margin-bottom: 2rem;
+    font-size: 3.6rem;
+    margin-bottom: 3rem;
     span {
       background-color: var(--deep-dark);
       padding: 0.5rem;
@@ -53,6 +53,17 @@ const AboutPageStyles = styled.div`
   .about__info__heading {
     font-size: 3.6rem;
     text-transform: uppercase;
+  }
+  button[type='submit'] {
+    background-color: var(--black);
+    color: var(--light);
+    font-size: 2rem;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 1rem 4rem;
+    border-radius: 8px;
+    cursor: pointer;
   }
   @media only screen and (max-width: 768px) {
     padding: 10rem 0;
@@ -102,7 +113,9 @@ export default function About() {
                   projects, I worked as both designer and engineer.
                 </PText>
               </div>
-              {/* <Button btnText="Download CV" btnLink="#" /> */}
+              <form action="http://google.com">
+                <button type="submit">Download CV</button>
+              </form>
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />
