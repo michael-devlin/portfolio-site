@@ -23,6 +23,21 @@ const HeroStyles = styled.div`
       margin-top: 1rem;
     }
 
+    button[type='submit'] {
+        background-color: var(--black);
+        color: var(--light);
+        font-size: 2rem;
+        display: inline-block;
+        outline: none;
+        border: none;
+        padding: 1rem 4rem;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-top: 3.5rem;
+  }
+
+}
+
     @media only screen and (max-width: 768px) {
       .hero {
         min-height: 750px;
@@ -54,10 +69,10 @@ export default function HeroSection() {
             <img className="banner" src={Banner} alt="" />
           </div>
           <div className="hero__info">
-            <PText>
-              I build great looking, user-friendly, accessible websites and apps
-            </PText>
-            <Button btnLink="/projects" btnText="See my projects" />
+            <PText>Passionate about user-centred products.</PText>
+            <form action="http://google.com">
+              <button type="submit">See My Portfolio</button>
+            </form>
           </div>
         </div>
       </div>

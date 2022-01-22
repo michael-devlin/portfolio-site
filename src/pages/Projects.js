@@ -10,9 +10,25 @@ const ProjectStyle = styled.div`
   padding: 10rem 0;
   .proj__info {
     margin-bottom: 4rem;
+    margin-top: 2rem;
     .para {
       max-width: 100%;
     }
+  }
+  .btn__container {
+    width: 100%;
+  }
+  button[type='submit'] {
+    background-color: var(--black);
+    color: var(--light);
+    font-size: 2rem;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 1rem 4rem;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 3.5rem;
   }
   .projects__allItems {
     display: grid;
@@ -77,9 +93,14 @@ export default function Projects() {
           <div className="proj__info">
             <PText>
               On this page, you'll find some of the projects I helped design and
-              build at Founders and Coders. Click the button below to see my
-              up-to-date portfolio:
+              build at Founders and Coders. For my up-to-date, detailed
+              portfolio, please click the button below:
             </PText>
+            <div className=".btn__container">
+              <form action="http://google.com">
+                <button type="submit">My Portfolio</button>
+              </form>
+            </div>
           </div>
           <div className="projects__searchBar">
             <form>

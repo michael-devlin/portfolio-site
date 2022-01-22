@@ -59,9 +59,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer__column">
           <h1 className="footer__column__title">Michael Devlin</h1>
-          <PText>
-            A UX Engineer and Researcher with an aptitude for design.
-          </PText>
+          <PText>Passionate about user-centred products.</PText>
         </div>
         <div className="footer__column2">
           <FooterColumn
