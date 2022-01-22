@@ -29,10 +29,10 @@ const AboutPageStyles = styled.div`
       border-radius: 8px;
     }
   }
-  .about__heading {
+  /* .about__heading {
     font-size: 3.6rem;
     margin-bottom: 3rem;
-  }
+  } */
   .about__info {
     margin-bottom: 4rem;
     .para {
@@ -93,9 +93,6 @@ export default function About() {
               <p className="about__subheading">
                 Hi, I am <span>Michael</span>
               </p>
-              <h2 className="about__heading">
-                <span>A UX Engineer</span>
-              </h2>
               <div className="about__info">
                 <PText>
                   I have a passion for for helping design and engineer

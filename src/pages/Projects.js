@@ -1,12 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { MdSearch } from 'react-icons/md';
+import PText from '../components/PText';
 import SectionTitle from '../components/SectionTitle';
 import ProjectsItems from '../components/ProjectsItems';
 import ProjectInfo from '../assets/data/projects';
 
 const ProjectStyle = styled.div`
   padding: 10rem 0;
+  .proj__info {
+    margin-bottom: 4rem;
+    .para {
+      max-width: 100%;
+    }
+  }
   .projects__allItems {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -67,6 +74,13 @@ export default function Projects() {
       <ProjectStyle>
         <div className="container">
           <SectionTitle heading="Projects" subheading="Some of my work" />
+          <div className="proj__info">
+            <PText>
+              On this page, you'll find some of the projects I helped design and
+              build at Founders and Coders. Click the button below to see my
+              up-to-date portfolio:
+            </PText>
+          </div>
           <div className="projects__searchBar">
             <form>
               <input

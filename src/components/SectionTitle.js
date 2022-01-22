@@ -13,7 +13,7 @@ h2 {
     font-size: 6rem;
     margin-top: 0.5rem;
     text-transform: uppercase;
-
+    margin-bottom: 0.8rem;
 }
 
 @media only screen and (max-width: 768px) {
