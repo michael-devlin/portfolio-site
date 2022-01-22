@@ -69,7 +69,7 @@ export default function HeroSection() {
             <img className="banner" src={Banner} alt="" />
           </div>
           <div className="hero__info">
-            <PText>Passionate about user-centred products.</PText>
+            <PText>A passion for designing user-centred products.</PText>
             <form action="http://google.com">
               <button type="submit">See My Portfolio</button>
             </form>

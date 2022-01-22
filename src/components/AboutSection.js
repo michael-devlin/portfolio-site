@@ -37,6 +37,9 @@ const AboutSectionStyle = styled.div`
     gap: 2rem;
     margin-top: 2rem;
   }
+  .AboutImg {
+    margin-left: 0.92rem;
+  }
   @media only screen and (max-width: 950px) {
     .aboutSection_left {
       flex: 4;
@@ -84,9 +87,8 @@ export default function AboutSection() {
             heading="ABOUT ME"
           />
           <PText>
-            I am a UX Engineeer and User Researcher based in London. I create
-            user-centred websites and web apps. In my spare time, I enjoy hiking
-            and practicing yoga.
+            I have a passion for designing and building great looking websites
+            and apps. In my spare time, I enjoy hiking and practicing yoga.
           </PText>
           <div className="aboutSection__buttons">
             <Button btnLink="/projects" btnText="My Work" />
