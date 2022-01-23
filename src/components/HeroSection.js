@@ -33,7 +33,7 @@ const HeroStyles = styled.div`
         padding: 1rem 4rem;
         border-radius: 8px;
         cursor: pointer;
-        margin-top: 3.5rem;
+        margin-top: 2.2rem;
   }
 
 }
