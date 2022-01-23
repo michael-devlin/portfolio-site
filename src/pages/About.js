@@ -13,6 +13,7 @@ const AboutPageStyles = styled.div`
     align-items: center;
     justify-content: center;
     gap: 2rem;
+    margin-top: -95px;
   }
   .left {
     flex: 3;
@@ -64,15 +65,18 @@ const AboutPageStyles = styled.div`
     padding: 1rem 4rem;
     border-radius: 8px;
     cursor: pointer;
+    margin-top: -2rem;
   }
   @media only screen and (max-width: 768px) {
     padding: 10rem 0;
     .top-section {
       flex-direction: column;
       gap: 5rem;
+      margin-top: -20px;
     }
     .about__subheading {
       font-size: 1.8rem;
+      line-height: 2.75rem;
     }
     .about__heading {
       font-size: 2.8rem;
@@ -91,7 +95,7 @@ export default function About() {
           <div className="top-section">
             <div className="left">
               <p className="about__subheading">
-                Hi, I am <span>Michael</span>
+                Hi there, I am <span>Michael</span>
               </p>
               <div className="about__info">
                 <PText>
@@ -120,7 +124,7 @@ export default function About() {
           </div>
           <div className="about__info__items">
             <div className="about__info__item">
-              <h1 className="about__info__heading">Skills</h1>
+              <h1 className="about__info__heading">Skills & Tools</h1>
               <AboutInfoItem
                 title="FrontEnd"
                 items={['HTML', 'CSS', 'JavaScript', 'REACT']}
@@ -131,7 +135,7 @@ export default function About() {
               />
               <AboutInfoItem
                 title="Design"
-                items={['Figma', 'Photoshop', 'Miro']}
+                items={['Figma', 'Miro', 'Webflow']}
               />
             </div>
             <div className="about__info__item">
@@ -146,7 +150,7 @@ export default function About() {
               />
               <AboutInfoItem
                 title="Mar 21 - June 21"
-                items={['Software Engineer Trainee at Founders & Coders']}
+                items={['Web Developer Trainee at Founders & Coders']}
               />
               <AboutInfoItem
                 title="2018-2021"

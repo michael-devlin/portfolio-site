@@ -15,11 +15,11 @@ const ProjectStyle = styled.div`
       max-width: 100%;
       line-height: 3rem;
     }
-    span {
+    /* span {
       background-color: var(--deep-dark);
       padding: 0rem;
       border-radius: 4.2px;
-    }
+    } */
   }
   .emoji {
     font-size: 3.75rem;
@@ -105,7 +105,7 @@ export default function Projects() {
             <PText>
               On this page, you'll find some of the projects I helped design and
               build at Founders and Coders. For my up-to-date, detailed
-              portfolio, please click <span>'See My Portfolio'</span>
+              portfolio, please go to <span>'See My Portfolio'.</span>
               <br />
               <br />
               Here you can find a slide deck of my projects and the role I
