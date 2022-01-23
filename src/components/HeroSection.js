@@ -16,11 +16,11 @@ const HeroStyles = styled.div`
     justify-content: center;
 
     .banner {
-      margin-top: -100px;
+      margin-top: -135px;
     }
 
     .hero__info {
-      margin-top: 1rem;
+      margin-top: -5.25rem;
     }
 
     button[type='submit'] {
@@ -47,11 +47,11 @@ const HeroStyles = styled.div`
         margin-bottom: -675px;
       }
       .hero__img {
-        margin-top: -140px;
+        margin-top: -220px;
         height: 147px;
       }
       .hero__info {
-        margin-top: -9.5rem;
+        margin-top: -9.5px;
       }
       p {
         font-size: 1.2rem;
