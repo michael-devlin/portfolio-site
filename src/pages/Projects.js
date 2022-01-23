@@ -13,10 +13,21 @@ const ProjectStyle = styled.div`
     margin-top: 2rem;
     .para {
       max-width: 100%;
+      line-height: 3rem;
     }
+    span {
+      background-color: var(--deep-dark);
+      padding: 0rem;
+      border-radius: 4.2px;
+    }
+  }
+  .emoji {
+    font-size: 3.75rem;
+    text-align: left;
   }
   .btn__container {
     width: 100%;
+    margin: auto;
   }
   button[type='submit'] {
     background-color: var(--black);
@@ -28,7 +39,7 @@ const ProjectStyle = styled.div`
     padding: 1rem 4rem;
     border-radius: 8px;
     cursor: pointer;
-    margin-top: 3.5rem;
+    margin-top: 1.25rem;
   }
   .projects__allItems {
     display: grid;
@@ -94,11 +105,17 @@ export default function Projects() {
             <PText>
               On this page, you'll find some of the projects I helped design and
               build at Founders and Coders. For my up-to-date, detailed
-              portfolio, please click the button below:
+              portfolio, please click <span>'See My Portfolio'</span>
+              <br />
+              <br />
+              Here you can find a slide deck of my projects and the role I
+              played:
+              <br />
             </PText>
+            <p className="emoji">👇</p>
             <div className=".btn__container">
-              <form action="http://google.com">
-                <button type="submit">My Portfolio</button>
+              <form action="https://drive.google.com/file/d/187h3bonV6Iuz_ercGkKctlW8awIWhJmO/view?usp=sharing">
+                <button type="submit">See My Portfolio</button>
               </form>
             </div>
           </div>
