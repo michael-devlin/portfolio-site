@@ -70,7 +70,7 @@ export default function HeroSection() {
           </div>
           <div className="hero__info">
             <PText>A passion for designing user-centred products.</PText>
-            <form action="http://google.com">
+            <form action="https://drive.google.com/file/d/187h3bonV6Iuz_ercGkKctlW8awIWhJmO/view?usp=sharing">
               <button type="submit">See My Portfolio</button>
             </form>
           </div>

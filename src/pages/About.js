@@ -110,7 +110,7 @@ export default function About() {
                   projects, I worked as both designer and engineer.
                 </PText>
               </div>
-              <form action="http://google.com">
+              <form action="https://drive.google.com/file/d/187h3bonV6Iuz_ercGkKctlW8awIWhJmO/view?usp=sharing">
                 <button type="submit">Download CV</button>
               </form>
             </div>
@@ -126,8 +126,8 @@ export default function About() {
                 items={['HTML', 'CSS', 'JavaScript', 'REACT']}
               />
               <AboutInfoItem
-                title="BackEnd"
-                items={['Node', 'PostgreSQL', 'Express']}
+                title="Product"
+                items={['Kanban', 'Agile', 'User Stories']}
               />
               <AboutInfoItem
                 title="Design"
