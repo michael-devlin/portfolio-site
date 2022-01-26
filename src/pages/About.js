@@ -30,10 +30,10 @@ const AboutPageStyles = styled.div`
       border-radius: 8px;
     }
   }
-  /* .about__heading {
-    font-size: 3.6rem;
+  .subheading {
+    font-size: 2.6rem;
     margin-bottom: 3rem;
-  } */
+  }
   .about__info {
     margin-bottom: 4rem;
     .para {
@@ -75,12 +75,16 @@ const AboutPageStyles = styled.div`
       margin-top: -20px;
     }
     .about__subheading {
+      font-size: 2.8rem;
+      line-height: 3.75rem;
+    }
+    .subheading {
       font-size: 1.8rem;
       line-height: 2.75rem;
     }
-    .about__heading {
+    /* .about__heading {
       font-size: 2.8rem;
-    }
+    } */
     .about__info__heading {
       font-size: 3rem;
     }
@@ -97,12 +101,13 @@ export default function About() {
               <p className="about__subheading">
                 Hi there, I am <span>Michael</span>
               </p>
+              <p className="subheading">I built this website with React.</p>
               <div className="about__info">
                 <PText>
-                  I have a passion for for helping design and engineer
-                  user-oriented products. I'm a former Publishing Editor with a
-                  background in teaching English and I hold an MA (Distinction)
-                  in Applied Ethics.
+                  I have a passion for designing and engineering user-oriented
+                  products. I'm a former Publishing Editor with a background in
+                  teaching English and I hold an MA (Distinction) in Applied
+                  Ethics.
                   <br />
                   <br />I made the career switch into tech so I could learn more
                   about the technology behind the types of software I was using
@@ -111,7 +116,7 @@ export default function About() {
                   professional interest. You can find links to some of the
                   projects I've worked on – both independently and as a team –
                   in the Projects section of this site. For all of these
-                  projects, I worked as both designer and engineer.
+                  projects, I worked as both designer and developer.
                 </PText>
               </div>
               <form action="https://drive.google.com/file/d/187h3bonV6Iuz_ercGkKctlW8awIWhJmO/view?usp=sharing">
@@ -146,7 +151,7 @@ export default function About() {
               />
               <AboutInfoItem
                 title="June 21 - Aug 21"
-                items={['Product Designer / UX Engineer for Pell Ensemble']}
+                items={['Freelance Web Developer / Designer for Pell Ensemble']}
               />
               <AboutInfoItem
                 title="Mar 21 - June 21"
