@@ -1,13 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
-import Button from './Button';
 import Banner from '../assets/images/banner.gif';
 import PText from './PText';
 
 const HeroStyles = styled.div`
   .hero {
     height: 97vh;
-    /* min-height: 1000px; */
     width: 100%;
     text-align: center;
     display: flex;
@@ -17,6 +15,8 @@ const HeroStyles = styled.div`
 
     .banner {
       margin-top: -135px;
+      max-height: 450px;
+      max-width: 880px;
     }
 
     .hero__info {
