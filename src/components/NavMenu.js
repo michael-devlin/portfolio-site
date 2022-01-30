@@ -58,6 +58,7 @@ const NavMenuStyles = styled.div`
     }
     .mobile-menu-icon {
       display: block;
+      color: white;
     }
     .navItems {
       --top: 1 rem;
@@ -68,6 +69,7 @@ const NavMenuStyles = styled.div`
       border-radius: 12px;
       position: absolute;
       background-color: var(--black);
+      color: white;
       right: 1rem;
       top: var(--top);
     .closeNav {
@@ -77,11 +79,13 @@ const NavMenuStyles = styled.div`
       cursor: pointer;
       * {
         pointer-events: none;
+        color: white;
       }
     }
     li {
       display: block;
       margin-bottom: 1rem;
+      color: white;
     }
   }
 `;

@@ -104,10 +104,9 @@ export default function About() {
               <p className="subheading">I built this website with React.</p>
               <div className="about__info">
                 <PText>
-                  I have a passion for designing and engineering user-oriented
-                  products. I'm a former Publishing Editor with a background in
-                  teaching English and I hold an MA (Distinction) in Applied
-                  Ethics.
+                  I currently work as a Product Owner / User Researcher. I'm a
+                  former Publishing Editor with a background in teaching English
+                  and I hold an MA (Distinction) in Applied Ethics.
                   <br />
                   <br />I made the career switch into tech so I could learn more
                   about the technology behind the types of software I was using
@@ -115,8 +114,7 @@ export default function About() {
                   life. It started as a hobby and has since become a
                   professional interest. You can find links to some of the
                   projects I've worked on – both independently and as a team –
-                  in the Projects section of this site. For all of these
-                  projects, I worked as both designer and developer.
+                  in the Projects section of this site.
                 </PText>
               </div>
               <form action="https://drive.google.com/file/d/187h3bonV6Iuz_ercGkKctlW8awIWhJmO/view?usp=sharing">
@@ -135,8 +133,8 @@ export default function About() {
                 items={['HTML', 'CSS', 'JavaScript', 'REACT']}
               />
               <AboutInfoItem
-                title="Product"
-                items={['Kanban', 'Agile', 'User Stories']}
+                title="Research"
+                items={['Testing', 'Interviews', 'User Stories']}
               />
               <AboutInfoItem
                 title="Design"

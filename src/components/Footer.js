@@ -14,7 +14,7 @@ const FooterStyles = styled.div`
   .footer__column {
     flex: 2;
     * {
-      color: white;
+      color: var(--white);
     }
   }
   .footer__column2,
@@ -68,7 +68,9 @@ export default function Footer() {
       <div className="container">
         <div className="footer__column">
           <h1 className="footer__column__title">Michael Devlin</h1>
-          <PText>A passion for designing user-centred products.</PText>
+          <PText>
+            Thank you for visiting my site. Feel free to get in touch.
+          </PText>
         </div>
         <div className="footer__column2">
           <FooterColumn

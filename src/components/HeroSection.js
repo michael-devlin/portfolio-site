@@ -16,8 +16,8 @@ const HeroStyles = styled.div`
     .banner {
       margin-top: -135px;
       max-height: 450px;
-      max-width: 970px;
-      opacity: 80%;
+      max-width: 880px;
+      opacity: 84%;
     }
 
     .hero__info {

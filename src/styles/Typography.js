@@ -43,12 +43,14 @@ const Typography = createGlobalStyle`
   }
   *{
     font-family: 'Recursive Mono';
-    color: var(--black);
+    color: white;
   }
   p {
+    color: var(--black);
   }
   h1,h2,h3,h4,h5,h6{
-    font-family: 'Quicksand Bold'
+    font-family: 'Quicksand Bold';
+    color: var(--black);
   }
 `;
 
