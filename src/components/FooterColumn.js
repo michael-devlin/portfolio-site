@@ -13,6 +13,9 @@ const ColumnStyle = styled.div`
   a {
     font-size: 1.8rem;
   }
+  * {
+    color: white;
+  }
 `;
 
 export default function FooterColumn({

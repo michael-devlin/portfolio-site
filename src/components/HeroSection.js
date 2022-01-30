@@ -22,6 +22,7 @@ const HeroStyles = styled.div`
 
     .hero__info {
       margin-top: -0.5rem;
+      color: black;
     }
 
     button[type='submit'] {
@@ -70,7 +71,7 @@ export default function HeroSection() {
             <img className="banner" src={Banner} alt="" />
           </div>
           <div className="hero__info">
-            <PText>A passion for designing user-centred products.</PText>
+            <PText>Welcome to my site</PText>
             <form action="https://drive.google.com/file/d/187h3bonV6Iuz_ercGkKctlW8awIWhJmO/view?usp=sharing">
               <button type="submit">See My Portfolio</button>
             </form>

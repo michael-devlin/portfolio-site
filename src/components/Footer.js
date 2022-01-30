@@ -13,11 +13,17 @@ const FooterStyles = styled.div`
   }
   .footer__column {
     flex: 2;
+    * {
+      color: white;
+    }
   }
   .footer__column2,
   .footer__column3,
   .footer__column4 {
     flex: 1;
+    * {
+      color: white;
+    }
   }
   .footer__column__title {
     font-size: 3.5rem;
@@ -31,6 +37,9 @@ const FooterStyles = styled.div`
     .para {
       margin-left: 0;
       color: var(--bg);
+    }
+    * {
+      color: white;
     }
   }
   @media only screen and (max-width: 768px) {

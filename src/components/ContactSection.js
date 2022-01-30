@@ -13,6 +13,9 @@ const ContactSectionStyle = styled.div`
     margin-top: 7rem;
     justify-content: space-between;
     position: relative;
+    * {
+      color: white;
+    }
   }
   .contactSection__wrapper::after {
     position: absolute;
