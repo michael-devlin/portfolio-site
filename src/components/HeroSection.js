@@ -16,11 +16,12 @@ const HeroStyles = styled.div`
     .banner {
       margin-top: -135px;
       max-height: 450px;
-      max-width: 880px;
+      max-width: 970px;
+      opacity: 80%;
     }
 
     .hero__info {
-      margin-top: -5.25rem;
+      margin-top: -0.5rem;
     }
 
     button[type='submit'] {
