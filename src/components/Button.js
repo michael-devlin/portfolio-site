@@ -13,8 +13,8 @@ const BtnStyle = styled.div`
     padding: 0.7em 2em;
     border-radius: 8px;
     display: inline-block;
-    border: 2px solid var(--bg);
-    color: ${(props) => (props.border ? 'var(--bg)' : 'var(--light)')};
+    border: 2px solid var(--black);
+    color: ${(props) => (props.border ? 'var(--black)' : 'var(--light)')};
   }
   @media only screen and (max-width: 768px) {
     .button {
