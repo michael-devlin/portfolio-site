@@ -5,6 +5,7 @@ import MontserratBold from '../assets/fonts/Montserrat-Bold.ttf';
 import QuicksandBold from '../assets/fonts/Quicksand-Bold.otf';
 import Quicksand from '../assets/fonts/Quicksand-Regular.otf';
 import RecursiveMono from '../assets/fonts/Recursive_Monospace-Regular.ttf';
+import BebasNeueRegular from '../assets/fonts/BebasNeue-Regular.ttf';
 
 const Typography = createGlobalStyle`
   @font-face {
@@ -37,6 +38,11 @@ const Typography = createGlobalStyle`
     src: url(${RecursiveMono});
     font-style: normal;
   }
+  @font-face {
+    font-family: 'BebasNeueRegular';
+    src: url(${BebasNeueRegular});
+    font-style: normal;
+  }
   html{
     font-family: 'RobotoMono Regular';
     color: var(--gray-1);
@@ -49,7 +55,7 @@ const Typography = createGlobalStyle`
     color: var(--black);
   }
   h1,h2,h3,h4,h5,h6{
-    font-family: 'Quicksand Bold';
+    font-family: 'Montserrat Bold';
     color: var(--black);
   }
 `;

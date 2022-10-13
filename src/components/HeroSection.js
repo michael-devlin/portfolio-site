@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Banner from '../assets/images/banner.gif';
+import Banner from '../assets/images/banner.png';
 import PText from './PText';
 
 const HeroStyles = styled.div`
@@ -14,10 +14,11 @@ const HeroStyles = styled.div`
     justify-content: center;
 
     .banner {
-      margin-top: -135px;
+      /* margin-top: -135px; */
       max-height: 450px;
       max-width: 880px;
-      opacity: 84%;
+      margin-bottom: 35px;
+      /* opacity: 84%; */
     }
 
     .hero__info {

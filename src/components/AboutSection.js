@@ -6,7 +6,7 @@ import Button from './Button';
 import AboutImg from '../assets/images/about-sec-img.jpeg';
 
 const AboutSectionStyle = styled.div`
-  background-color: white;
+  background-color: #D0C9C0;
   padding: 10rem 0;
   color: var(--black);
   .container {
