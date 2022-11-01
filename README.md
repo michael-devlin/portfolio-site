@@ -32,4 +32,4 @@ I decided to use React as a framework and Netlify as my deployment host. I made 
 The site is mobile responsive but may appear different across devices. Everything is now fully functionable and the site is deployed but I may add some further features within the coming weeks.
 
 
-###### Designed by Michael Devlin © Copyright 2022*
+###### Designed by Michael Devlin © Copyright 2022
