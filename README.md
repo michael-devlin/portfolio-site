@@ -1,6 +1,6 @@
 ## Personal portfolio site built using React / hosted by Netflify
 
-![](https://user-images.githubusercontent.com/23028288/149920266-65a42599-0372-4c14-8e43-fb9f186095a0.png)
+![banner](https://user-images.githubusercontent.com/23028288/199296098-1a662ec1-4faa-491f-8f08-7c8f32360671.png)
 
 I built this portfolio to showcase some of the projects I worked on collaboratively during my time at Founders & Coders – a full stack, peer-led, bootcamp based in London – as well as some of the projcets I have built alone.
 
