@@ -53,7 +53,7 @@ export default function ContactForm() {
         >
           <div className="form-group">
             <label htmlFor="name">
-              Your Name
+              <p>Your Name</p>
               <input
                 type="text"
                 id="name"

@@ -13,7 +13,7 @@ const ItemStyles = styled.div`
   margin-bottom: 2rem;
   .icon {
     color: var(--white);
-    background-color: var(--bg);
+    background-color: var(--gray-2);
     padding: 1.3rem;
     display: flex;
     align-items: center;
