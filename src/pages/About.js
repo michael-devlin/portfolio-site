@@ -104,7 +104,7 @@ export default function About() {
               <p className="subheading">I built this website with React.</p>
               <div className="about__info">
                 <PText>
-                  I currently work as a Product Owner / User Researcher. I'm a
+                  I currently work as a Deisgner – specialising in UX. I'm a
                   former Publishing Editor with a background in teaching English
                   and I hold an MA (Distinction) in Applied Ethics.
                   <br />
