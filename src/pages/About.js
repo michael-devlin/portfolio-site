@@ -127,7 +127,7 @@ export default function About() {
           </div>
           <div className="about__info__items">
             <div className="about__info__item">
-              <h1 className="about__info__heading">Skills & Tools</h1>
+              <h1 className="about__info__heading">Methods & Tools</h1>
               <AboutInfoItem
                 title="FrontEnd"
                 items={['HTML', 'CSS', 'JavaScript', 'REACT']}
@@ -137,8 +137,12 @@ export default function About() {
                 items={['Testing', 'Interviews', 'User Stories']}
               />
               <AboutInfoItem
-                title="Design"
-                items={['Figma', 'Miro', 'Webflow']}
+                title="Design skills"
+                items={['Mockups', 'Wireframes', 'Prototyping']}
+              />
+              <AboutInfoItem
+                title="Design tools"
+                items={['Figma', 'GDS Prototype kit', 'Webflow']}
               />
             </div>
             <div className="about__info__item">
