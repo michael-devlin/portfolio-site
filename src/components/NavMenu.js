@@ -147,17 +147,6 @@ export default function NavMenu() {
             Projects
           </NavLink>
         </li>
-        <li>
-          <NavLink
-            to="/contact"
-            onClick={() => setNav(!showNav)}
-            role="button"
-            onKeyDown={() => setNav(!showNav)}
-            tabIndex={0}
-          >
-            Contact
-          </NavLink>
-        </li>
       </ul>
     </NavMenuStyles>
   );

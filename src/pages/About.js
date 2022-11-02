@@ -173,7 +173,7 @@ export default function About() {
             </div>
           </div>
         </div>
-        <ContactBanner />
+        {/* <ContactBanner /> */}
       </AboutPageStyles>
     </>
   );

@@ -13,7 +13,7 @@ export default function Home() {
       <AboutSection />
       <ProjectSec />
       <EndorsementsSec />
-      <ContactBanner />
+      {/* <ContactBanner /> */}
     </div>
   );
 }

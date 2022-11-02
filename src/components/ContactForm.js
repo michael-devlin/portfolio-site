@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
+import PText from './PText';
 
 const FormStyle = styled.form`
   width: 100%;
@@ -53,7 +54,7 @@ export default function ContactForm() {
         >
           <div className="form-group">
             <label htmlFor="name">
-              <p>Your Name</p>
+              <PText>Your Name</PText>
               <input
                 type="text"
                 id="name"
