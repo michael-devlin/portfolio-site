@@ -133,6 +133,10 @@ export default function About() {
                 items={['HTML', 'CSS', 'JavaScript', 'REACT']}
               />
               <AboutInfoItem
+                title="BackEnd"
+                items={['Databases', 'SQL', 'Postgres']}
+              />
+              <AboutInfoItem
                 title="Research"
                 items={['Testing', 'Interviews', 'User Stories']}
               />
