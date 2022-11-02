@@ -50,13 +50,14 @@ const HeroStyles = styled.div`
         margin-bottom: -675px;
       }
       .hero__img {
-        margin-top: -220px;
+        margin-top: -340px;
         height: 147px;
         /* max-width: 90%; */
       }
       .banner {
-        min-width: 95%
-        max-width: 440px;
+        /* min-width: 95%
+        max-width: 440px; */
+        display: none;
       }
       .hero__info {
         margin-top: -9.5px;
