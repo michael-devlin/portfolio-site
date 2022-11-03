@@ -5,7 +5,8 @@ import MontserratBold from '../assets/fonts/Montserrat-Bold.ttf';
 import QuicksandBold from '../assets/fonts/Quicksand-Bold.otf';
 import Quicksand from '../assets/fonts/Quicksand-Regular.otf';
 import RecursiveMono from '../assets/fonts/Recursive_Monospace-Regular.ttf';
-import BebasNeueRegular from '../assets/fonts/BebasNeue-Regular.ttf';
+import RubikMonoOne from '../assets/fonts/RubikMonoOne-Regular.ttf';
+import RubikBlack from '../assets/fonts/Rubik-Black.ttf';
 
 const Typography = createGlobalStyle`
   @font-face {
@@ -39,8 +40,13 @@ const Typography = createGlobalStyle`
     font-style: normal;
   }
   @font-face {
-    font-family: 'BebasNeueRegular';
-    src: url(${BebasNeueRegular});
+    font-family: 'Rubik Mono One';
+    src: url(${RubikMonoOne});
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Rubik Black';
+    src: url(${RubikBlack});
     font-style: normal;
   }
   html{

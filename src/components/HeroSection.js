@@ -63,7 +63,10 @@ const HeroStyles = styled.div`
         margin-top: -9.5px;
       }
       p {
-        font-size: 1.2rem;
+        font-size: 4.2rem;
+        line-height: 4.5rem;
+        font-weight: bold;
+        font-family:'Rubik Mono One';
       }
     }
   }
