@@ -117,7 +117,7 @@ export default function About() {
                   in the Projects section of this site.
                 </PText>
               </div>
-              <form action="https://drive.google.com/file/d/187h3bonV6Iuz_ercGkKctlW8awIWhJmO/view?usp=sharing">
+              <form action="https://drive.google.com/file/d/1l34j6o_83rRR3t6jX4uM_OVLd_yw2ZeH/view?usp=sharing">
                 <button type="submit">Download CV</button>
               </form>
             </div>
