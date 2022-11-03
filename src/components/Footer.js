@@ -91,11 +91,11 @@ export default function Footer() {
                 path: '/projects',
                 type: 'Link',
               },
-              {
-                title: 'Contact',
-                path: '/contact',
-                type: 'Link',
-              },
+              // {
+              //   title: 'Contact',
+              //   path: '/contact',
+              //   type: 'Link',
+              // },
             ]}
           />
         </div>
