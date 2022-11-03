@@ -20,8 +20,8 @@ const AboutItemStyles = styled.div`
   }
   .item {
     background-color: var(--light);
-    padding: 1rem;
-    border-radius: 8px;
+    padding: 0.75rem;
+    border-radius: 7px;
   }
   @media only screen and (max-width: 768px) {
     flex-direction: column;
