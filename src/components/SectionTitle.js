@@ -9,7 +9,7 @@ p {
     font-size: 3.5rem;
 }
 h2 {
-  font-family: 'Montserrat Bold';
+  font-family: 'Rubik Black';
     font-size: 6rem;
     margin-top: 0.5rem;
     text-transform: uppercase;

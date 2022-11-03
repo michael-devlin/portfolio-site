@@ -88,7 +88,7 @@ export default function AboutSection() {
           />
           <PText>
             I'm a Designer based in London – specialising in improving user
-            experience in the public sector
+            experience for the public sector
           </PText>
           <div className="aboutSection__buttons">
             <Button btnLink="/projects" btnText="My Work" />

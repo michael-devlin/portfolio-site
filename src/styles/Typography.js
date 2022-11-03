@@ -6,7 +6,7 @@ import QuicksandBold from '../assets/fonts/Quicksand-Bold.otf';
 import Quicksand from '../assets/fonts/Quicksand-Regular.otf';
 import RecursiveMono from '../assets/fonts/Recursive_Monospace-Regular.ttf';
 import RubikMonoOne from '../assets/fonts/RubikMonoOne-Regular.ttf';
-import RubikBlack from '../assets/fonts/Rubik-Black.ttf';
+import RubikBlack from '../assets/fonts/Prompt-Bold.ttf';
 
 const Typography = createGlobalStyle`
   @font-face {
@@ -61,7 +61,7 @@ const Typography = createGlobalStyle`
     color: var(--black);
   }
   h1,h2,h3,h4,h5,h6{
-    font-family: 'Montserrat Bold';
+    font-family: 'Rubik Black';
     color: var(--black);
   }
 `;
