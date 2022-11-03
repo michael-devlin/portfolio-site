@@ -19,7 +19,7 @@ text-align: center;
   width: 100%;
   height: fit-content;
   padding: 3rem;
-  background-color: var(--deep-dark);
+  background-color: var(--light);
   border-radius: 12px;
   margin-top: 5rem;
 }
@@ -50,7 +50,7 @@ margin-top: 0.3rem;
   .prev {
     margin: 0 0.5rem;
     width: fit-content;
-    background-color: var(--deep-dark);
+    background-color: var(--black);
     padding: .5rem 2rem;
     border-radius: 8px;
     cursor: pointer;
