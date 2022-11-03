@@ -86,7 +86,10 @@ export default function AboutSection() {
             subheading=""
             heading="ABOUT ME"
           />
-          <PText>I'm a Designer based in London, specialising in UX</PText>
+          <PText>
+            I'm a Designer based in London – specialising in improving user
+            experience in the public sector
+          </PText>
           <div className="aboutSection__buttons">
             <Button btnLink="/projects" btnText="My Work" />
             <Button btnLink="/about" btnText="See More" border />
