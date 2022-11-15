@@ -98,7 +98,7 @@ export default function EndorsementsSec() {
       <div className="container">
         <SectionTitle
           heading="Endorsements"
-          subheading="See what my colleagues have to say about my work"
+          subheading="See what clients & colleagues have to say about my work"
         />
         <div className="endorsements__wrapper">
           <SwitchTransition>
