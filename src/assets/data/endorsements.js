@@ -9,6 +9,14 @@ const endorsements = [
   },
   {
     id: 2,
+    name: 'Jane Adams',
+    title: 'CEO',
+    org: 'Perth Citizens Advice Bureau',
+    desc:
+      'Michael and the team at SIDE Labs have been designing a speech AI service for the Citizens Advice Scotland helpline for us as part of the Civtech Challenge to improve our multi-channel service. They have helped us do work that has been in the pipeline for years in a matter of weeks.',
+  },
+  {
+    id: 3,
     name: 'Saki Reid',
     title: 'Software Developer',
     org: 'Freelance/Founders & Coders',
@@ -16,7 +24,7 @@ const endorsements = [
       'Michael is a great teammate with really good energy. He’s innovative and generates lots of good ideas for project name and designs. He’s very smart and lots of fun to work with and has fantastic communication skills.',
   },
   {
-    id: 3,
+    id: 4,
     name: 'Jo Humphrey',
     title: 'Software Developer',
     org: 'Freelance/Founders & Coders',
@@ -24,7 +32,7 @@ const endorsements = [
       'Michael is so creative and really fun to have on a team - I loved working with him on two one-week projects. He was often the brains behind the UX/UI and had great ideas. I also really appreciated his considerate code reviews.',
   },
   {
-    id: 3,
+    id: 5,
     name: 'Chun Zhang',
     title: 'Software Developer',
     org: 'Freelance/Founders & Coders',

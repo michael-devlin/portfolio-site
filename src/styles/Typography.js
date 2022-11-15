@@ -5,7 +5,7 @@ import MontserratBold from '../assets/fonts/Montserrat-Bold.ttf';
 import QuicksandBold from '../assets/fonts/Quicksand-Bold.otf';
 import Quicksand from '../assets/fonts/Quicksand-Regular.otf';
 import RecursiveMono from '../assets/fonts/Recursive_Monospace-Regular.ttf';
-import RubikMonoOne from '../assets/fonts/RubikMonoOne-Regular.ttf';
+import RubikMonoOne from '../assets/fonts/Montserrat-BlackItalic.ttf';
 import RubikBlack from '../assets/fonts/Prompt-Bold.ttf';
 
 const Typography = createGlobalStyle`
