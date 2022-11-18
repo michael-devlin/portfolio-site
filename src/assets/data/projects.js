@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 import CasImg from '../images/CAS.png';
-import MindfulImg from '../images/mindful.png';
+import OfqualImg from '../images/ofqual.png';
 import TwaddleImg from '../images/twaddle.png';
 import DonQuizoteImg from '../images/donquizote.png';
 import HackneyImg from '../images/hackney.png';
@@ -9,7 +9,7 @@ const projects = [
   {
     id: uuidv4(),
     name: 'Hackney Council – Document Evidence Service (DES)',
-    desc: 'Created and tested designs for Hackney Council to improve service.',
+    desc: 'Rapid design & prototyping for Hackney Council file upload service.',
     img: HackneyImg,
     link: '',
   },
@@ -17,18 +17,18 @@ const projects = [
     id: uuidv4(),
     name: 'Citizens Advice Scotland – National Helpline (CivTech 6)',
     desc:
-      'Improved user experience for the CAS Helpline using speech AI and provided service design for chatbot feature and file uploading service. ',
+      'Improving the CAS Helpline using speech AI & providing service design for a chatbot. ',
 
     img: CasImg,
     link: '',
   },
   {
     id: uuidv4(),
-    name: 'The Mindful Pomodoro',
+    name: 'Ofqual – Public Facing Services',
     desc:
-      'A Pomodoro Timer I built as a solo project using Vanilla JS, HTML and CSS',
-    img: MindfulImg,
-    link: 'https://github.com/fac21/the_mindful_pomodoro',
+      'Conducting user research on prototypes for Ofqual Public Facing Services.',
+    img: OfqualImg,
+    link: '',
   },
   {
     id: uuidv4(),
