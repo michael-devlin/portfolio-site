@@ -3,14 +3,14 @@ import ChummyImg from '../images/chummy.png';
 import MindfulImg from '../images/mindful.png';
 import TwaddleImg from '../images/twaddle.png';
 import DonQuizoteImg from '../images/donquizote.png';
-import MoveAndCodeImg from '../images/MoveAndCode.png';
+import HackneyImg from '../images/hackney.png';
 
 const projects = [
   {
     id: uuidv4(),
     name: 'Move and Code – Pell Ensemble',
     desc: 'Building and designing a webcam-based app for Pell Ensemble.',
-    img: MoveAndCodeImg,
+    img: HackneyImg,
     link: 'https://github.com/tech-for-better/pell-ensemble-mm',
   },
   {
