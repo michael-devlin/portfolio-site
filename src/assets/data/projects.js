@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from 'uuid';
-import ChummyImg from '../images/chummy.png';
+import CasImg from '../images/CAS.png';
 import MindfulImg from '../images/mindful.png';
 import TwaddleImg from '../images/twaddle.png';
 import DonQuizoteImg from '../images/donquizote.png';
@@ -9,18 +9,18 @@ const projects = [
   {
     id: uuidv4(),
     name: 'Hackney Council – Document Evidence Service (DES)',
-    desc: 'Created designs for Hackney Council document evidence service.',
+    desc: 'Created and tested designs for Hackney Council to improve service.',
     img: HackneyImg,
     link: '',
   },
   {
     id: uuidv4(),
-    name: 'Chummy',
+    name: 'Citizens Advice Scotland – National Helpline (CivTech 6)',
     desc:
-      'A full-stack app built as a team of four for our final project at FAC.',
+      'Improved user experience for the CAS Helpline using speech AI and provided service design for chatbot feature and file uploading service. ',
 
-    img: ChummyImg,
-    link: 'https://github.com/fac21/Final-project-NSMM',
+    img: CasImg,
+    link: '',
   },
   {
     id: uuidv4(),
