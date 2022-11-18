@@ -8,10 +8,10 @@ import HackneyImg from '../images/hackney.png';
 const projects = [
   {
     id: uuidv4(),
-    name: 'Move and Code – Pell Ensemble',
-    desc: 'Building and designing a webcam-based app for Pell Ensemble.',
+    name: 'Hackney Council – Document Evidence Service (DES)',
+    desc: 'Created designs for Hackney Council document evidence service.',
     img: HackneyImg,
-    link: 'https://github.com/tech-for-better/pell-ensemble-mm',
+    link: '',
   },
   {
     id: uuidv4(),
