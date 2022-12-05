@@ -17,7 +17,7 @@ const projects = [
     id: uuidv4(),
     name: 'Citizens Advice Scotland – National Helpline (CivTech 6)',
     desc:
-      'Improving the CAS Helpline using speech AI & providing service design for a chatbot. ',
+      'Improving the CAS Helpline using speech AI & providing service design for a chatbot and file sharing service. ',
 
     img: CasImg,
     link: '',
