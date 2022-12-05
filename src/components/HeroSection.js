@@ -82,7 +82,7 @@ export default function HeroSection() {
           </div>
           <div className="hero__info">
             <PText>Welcome to my site</PText>
-            <form action="https://docs.google.com/presentation/d/1HGhwVyFUDl8q4QGkYt8DRDYdCL6gi66HfUNFNUMay40/edit?usp=sharing">
+            <form action="https://drive.google.com/file/d/1CN7NEtJRG_qI3Ti0U1GhmG5l89DUxSUw/view?usp=sharing">
               <button type="submit">See My Portfolio</button>
             </form>
           </div>
