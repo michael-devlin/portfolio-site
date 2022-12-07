@@ -108,11 +108,11 @@ export default function About() {
                   passion for creating user-friendly, intuitive designs. I hold
                   an MA (Distinction) in Applied Ethics.
                   <br />
-                  <br />I made the career switch into tech so I could learn more
-                  about the technology behind the types of software I was using
-                  on a daily basis in Publishing, as well as in my personal
-                  life. It started as a hobby and has since become a
-                  professional interest. You can find links to some of the
+                  <br />I have worked on a variety of projects for public sector
+                  organisations, including designing UIs for internal systems.
+                  Coming up with ideas is a key part of my job and personal
+                  life. My goal is always to create designs that are easy to use
+                  and improve user experience. You can find links to some of the
                   projects I've worked on – both independently and as a team –
                   in the Projects section of this site.
                 </PText>
