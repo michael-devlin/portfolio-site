@@ -112,7 +112,7 @@ export default function About() {
                   organisations, including designing UIs for internal systems.
                   Coming up with ideas is a key part of my job and personal
                   life. My goal is always to create designs that are easy to use
-                  and improve user experience. You can find links to some of the
+                  and help user needs. You can find links to some of the
                   projects I've worked on – both independently and as a team –
                   in the Projects section of this site.
                 </PText>
