@@ -104,7 +104,7 @@ export default function About() {
               <p className="subheading">I built this website with React.</p>
               <div className="about__info">
                 <PText>
-                  I am a Designer specializing in user-centered design, with a
+                  I am a Designer specialising in user-centered design, with a
                   passion for creating user-friendly, intuitive designs. I hold
                   an MA (Distinction) in Applied Ethics.
                   <br />
