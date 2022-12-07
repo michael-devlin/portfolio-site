@@ -104,9 +104,9 @@ export default function About() {
               <p className="subheading">I built this website with React.</p>
               <div className="about__info">
                 <PText>
-                  I currently work as a Deisgner – specialising in UX. I'm a
-                  former Publishing Editor with a background in teaching English
-                  and I hold an MA (Distinction) in Applied Ethics.
+                  I am a Designer specializing in user-centered design, with a
+                  passion for creating user-friendly, intuitive designs. I hold
+                  an MA (Distinction) in Applied Ethics.
                   <br />
                   <br />I made the career switch into tech so I could learn more
                   about the technology behind the types of software I was using
