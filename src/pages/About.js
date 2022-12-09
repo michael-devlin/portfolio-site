@@ -157,7 +157,7 @@ export default function About() {
               />
               <AboutInfoItem
                 title="Oct 21 - Apr 22"
-                items={['Product Owner / User Researcher at SIDE Labs']}
+                items={['Product Designer at SIDE Labs']}
               />
               <AboutInfoItem
                 title="June 21 - Aug 21"
