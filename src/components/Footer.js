@@ -67,7 +67,7 @@ export default function Footer() {
     <FooterStyles>
       <div className="container">
         <div className="footer__column">
-          <h1 className="footer__column__title">Michael Devlin</h1>
+          <h1 className="footer__column__title">MICHAEL DEVLIN</h1>
           <PText>
             Thank you for visiting my site. Feel free to get in touch.
           </PText>
