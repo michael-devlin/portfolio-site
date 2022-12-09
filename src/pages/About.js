@@ -161,7 +161,7 @@ export default function About() {
               />
               <AboutInfoItem
                 title="June 21 - Aug 21"
-                items={['Developer / Designer – Tech for Better']}
+                items={['Web Developer / Designer – Tech for Better']}
               />
               <AboutInfoItem
                 title="Mar 21 - June 21"
