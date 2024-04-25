@@ -1,6 +1,6 @@
 ## Personal portfolio site built using React / hosted by Netflify
 
-![banner](https://user-images.githubusercontent.com/23028288/199296098-1a662ec1-4faa-491f-8f08-7c8f32360671.png)
+![New LinkedIn banner](https://github.com/michael-devlin/portfolio-site/assets/23028288/15c28bf2-37eb-4ac8-b7c3-709c57860a33)
 
 I built this portfolio to showcase some of the projects I worked on collaboratively during my time at Founders & Coders – a full stack, peer-led, bootcamp based in London – as well as some of the projcets I have built alone.
 
